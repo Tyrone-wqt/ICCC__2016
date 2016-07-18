@@ -1,10 +1,11 @@
-package com.example.wqt.iccc2016.qpf;
+package com.example.wqt.iccc2016.qpf.util;
 
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.wqt.iccc2016.R;
@@ -31,22 +32,25 @@ public class CommitteeAdapter extends ArrayAdapter<Committee> {
         {
             view= LayoutInflater.from(getContext()).inflate(resourceId,null);
             viewHolder=new ViewHolder();
-            viewHolder.committeeIntro=(TextView)view.findViewById(R.id.tv_committee_intro);
-            viewHolder.committeeMember= (TextView) view.findViewById(R.id.tv_committee_member);
+            viewHolder.committeeIcon= (ImageView) view.findViewById(R.id.iv_committee_icon);
+            viewHolder.committeeName=(TextView)view.findViewById(R.id.tv_committee_name);
+            viewHolder.committeeLocation= (TextView) view.findViewById(R.id.tv_committee_location);
             view.setTag(viewHolder);
         }else
         {
             view=convertView;
             viewHolder= (ViewHolder) view.getTag();
         }
-        viewHolder.committeeIntro.setText(committee.getIntroduction());
-        viewHolder.committeeMember.setText(committee.getMember());
+        viewHolder.committeeIcon.setImageResource(committee.getCommitteeIcon());
+        viewHolder.committeeName.setText(committee.getCommitteeName());
+        viewHolder.committeeLocation.setText(committee.getCommitteeLocation());
         return view;
     }
 
     class ViewHolder
     {
-        TextView committeeIntro;
-        TextView committeeMember;
+        ImageView committeeIcon;
+        TextView committeeName;
+        TextView committeeLocation;
     }
 }
