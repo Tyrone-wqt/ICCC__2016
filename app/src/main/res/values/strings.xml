@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">ICCC2016</string>
+    <string name="title_activity_hotel_and_travel">Hotel/Travel</string>
+    <string name="action_settings">Settings</string>
+    <string name="fragment_hotel_title1">Hotel Information</string>
+    <string name="fragment_hotel_title2">About the Hotel</string>
+    <string name="fragment_hotel_title3">Ground Transportation</string>
+    <string name="title_activity_program">Programs</string>
+    <string name="icon_font_welcome">&#xe6c8;</string>
+    <string name="icon_font_program">&#xe614;</string>
+    <string name="icon_font_map">&#xe626;</string>
+    <string name="icon_font_patrons">&#xe6ea;</string>
+    <string name="icon_font_commitee">&#xe6bd;</string>
+    <string name="icon_font_hotel_and_travel">&#xe71f;</string>
+    <string name="icon_font_message">&#xe645;</string>
+    <string name="icon_font_version_update">&#xe60f;</string>
+    <string name="title_activity_patron">Patrons</string>
+    <string name="icon_font_patron_huawei">&#xe789;</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="title_activity_committee">Committee</string>
+    <string name="welcome_title">WELCOME</string>
+    <string name="title_activity_version">Version</string>
+    <string name="welcome_content">\tOn behalf of the Executive Committee and the hosting University of Electronic Science and Technology of China,
+        it is our great pleasure to welcome you to the fifth IEEE/CIC International Conference on Communications in China (ICCC 2016) in the magnificent
+        city of Chengdu, China, 27-29 July, 2016.\n\n
+        Since its commencement in 2012, the ICCC conference has grown steadily from a brand new conference with
+        a strong vision, to a unique venue in bringing together global researchers and practitioners in areas of communications to the greater China region.
+        In particular, this year’s ICCC aims at addressing a key theme on “Ubiquitous Communications &amp; Computing for Future Internet”,
+        which broadly cover all disciplines of communications from fundamental research to emerging applications, while emphasizing society-shaping
+        technologies in the modern IT era.\n\n
+        In addition to providing a major forum for people to present their frontier research work and discuss the
+        latest breakthroughs, the ICCC 2016 also features Keynotes, Plenary Speeches, Invited Talks, Tutorials, Industrial &amp; Academic Panels,
+        Exhibitions, and dedicated Workshops. For those who attend the ICCC for the first time, you will soon appreciate the fact that ICCC is more
+        than just an outstanding technical conference, it is also a friendly rendezvous to interact, inspire, and discover.\n\n
+        This year we are honored to have four world renowned scholars to be our keynote speakers. Not only have each of them made extraordinary
+        contributions to the fields of communications, their diverse expertise and keen visions in both academia and industry are equally remarkable.
+        We look forward to their stimulating and scholastic seminars.\n\n
+        Finally, we wish all the participants a very fruitful and productive conference, and also an unforgettable stay in Chengdu.</string>
+    <string name="welcome_end">Program Committee, IEEE/CIC ICCC 2016</string>
+    <string name="update_info">Already up-to-date</string>
+
+    <string name="huawei_introduction">Huawei is a leading global information and communications technology (ICT) solutions provider. Driven by responsible operations, ongoing innovation, and open collaboration, we have established a competitive ICT portfolio of end-to-end solutions in telecom and enterprise networks, devices, and cloud computing. Our ICT solutions, products, and services are used in more than 170 countries and regions, serving over one-third of the world\'s population. With more than 170,000 employees, Huawei is committed to enabling the future information society, and building a Better Connected World.</string>
+    <string name="title_activity_detail">Detail</string>
+
+
+</resources>

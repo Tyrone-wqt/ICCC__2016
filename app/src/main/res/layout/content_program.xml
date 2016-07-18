@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.wqt.iccc2016.wqt.ProgramActivity"
+    tools:showIn="@layout/activity_program">
+
+
+    <LinearLayout
+        android:id="@+id/program_content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="8dp"
+        >
+
+        <com.example.wqt.iccc2016.wqt.Radio.SegmentedRadioGroup
+            android:id="@+id/segment_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="5dip"
+            android:checkedButton="@+id/radio_button_left"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@id/radio_button_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:gravity="center"
+                android:minHeight="33dip"
+                android:minWidth="60dip"
+                android:text="July 27"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/colorRadio" />
+
+            <RadioButton
+                android:id="@+id/radio_button_middle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:gravity="center"
+                android:minHeight="33dip"
+                android:minWidth="60dip"
+                android:text="July 28"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/colorRadio" />
+
+            <RadioButton
+                android:id="@+id/radio_button_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:gravity="center"
+                android:minHeight="33dip"
+                android:minWidth="60dip"
+                android:text="July 29"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/colorRadio" />
+        </com.example.wqt.iccc2016.wqt.Radio.SegmentedRadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorBlack" />
+
+        <android.support.v4.view.ViewPager
+
+            android:id="@+id/program_view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+        </android.support.v4.view.ViewPager>
+
+    </LinearLayout>
+
+</FrameLayout>

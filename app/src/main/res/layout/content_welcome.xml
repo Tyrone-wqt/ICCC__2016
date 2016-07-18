@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.wqt.iccc2016.qpf.WelcomeActivity"
+    tools:showIn="@layout/activity_welcome">
+
+    <ImageView
+        android:id="@+id/welcom_head_image"
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:src="@drawable/welcome_head_image"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:scrollbars="none"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/tv_welcome_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp"/>
+    </ScrollView>
+    <TextView
+        android:id="@+id/tv_welcome_end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_end"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="18sp" />
+</LinearLayout>
