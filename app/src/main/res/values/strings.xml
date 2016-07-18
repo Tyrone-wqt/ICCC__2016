@@ -18,6 +18,7 @@
     <string name="icon_font_patron_huawei">&#xe789;</string>
     <string name="title_activity_welcome">Welcome</string>
     <string name="title_activity_committee">Committee</string>
+    <string name="fragment_hotel_title4">Travel</string>
     <string name="welcome_title">WELCOME</string>
     <string name="title_activity_version">Version</string>
     <string name="welcome_content">\tOn behalf of the Executive Committee and the hosting University of Electronic Science and Technology of China,

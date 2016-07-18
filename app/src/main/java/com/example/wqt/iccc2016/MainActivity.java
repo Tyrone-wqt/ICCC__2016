@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     int[] mGridViewImageIds = new int[]{R.string.icon_font_welcome, R.string.icon_font_program, R.string.icon_font_map, R.string.icon_font_patrons, R.string.icon_font_commitee, R.string.icon_font_hotel_and_travel, R.string.icon_font_message, R.string.icon_font_version_update};
 
-    String[] mGridViewTextStrings = new String[]{"Welcome", "Program", "Map", "Patrons", "Commitee", "Hotel/Travel", "Messages", "Version Update"};
+    String[] mGridViewTextStrings = new String[]{"Welcome", "Program", "Map", "About", "Committee", "Hotel/Travel", "Messages", "Version Update"};
 
     //ProgressBar mProgressBar;
 
