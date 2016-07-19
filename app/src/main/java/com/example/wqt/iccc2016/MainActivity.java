@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
 
-import com.example.wqt.iccc2016.qpf.CommitteeActivity;
+import com.example.wqt.iccc2016.qpf.CommitteeMainActivity;
 import com.example.wqt.iccc2016.qpf.MapsActivity;
 import com.example.wqt.iccc2016.qpf.VersionActivity;
 import com.example.wqt.iccc2016.qpf.WelcomeActivity;
@@ -151,7 +151,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 startActivity(intentForPatron);
                 break;
             case 4:
-                Intent intentForCommittee = new Intent(this, CommitteeActivity.class);
+                Intent intentForCommittee = new Intent(this, CommitteeMainActivity.class);
                 startActivity(intentForCommittee);
                 break;
             case 5:

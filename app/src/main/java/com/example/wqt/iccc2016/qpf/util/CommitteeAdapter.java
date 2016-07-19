@@ -41,7 +41,8 @@ public class CommitteeAdapter extends ArrayAdapter<Committee> {
             view=convertView;
             viewHolder= (ViewHolder) view.getTag();
         }
-        viewHolder.committeeIcon.setImageResource(committee.getCommitteeIcon());
+
+        viewHolder.committeeIcon.setVisibility(View.GONE);
         viewHolder.committeeName.setText(committee.getCommitteeName());
         viewHolder.committeeLocation.setText(committee.getCommitteeLocation());
         return view;
