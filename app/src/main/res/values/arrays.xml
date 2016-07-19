@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="welcome_list">
+        <item>MESSAGE FROM THE GENERAL CHAIRS</item>
+        <item>MESSAGE FROM THE TECHNICAL PROGRAM CHAIRS</item>
+    </string-array>
+    <string-array name="committee_main_list">
+        <item>ICCC Committees</item>
+        <item>Technical Program Committees</item>
+        <item>Selected Topics in Communications</item>
+        <item>Signal Processing for Communications</item>
+        <item>Optical Communication Systems and Network</item>
+        <item>Next Generation Networking</item>
+        <item>Communication and Control Theory</item>
+        <item>Social Networks and Big Data</item>
+        <item>Wireless Communications Systems</item>
+        <item>Wireless Networking and Multimedia</item>
+        <item>Privacy and Security in Communications</item>
+        <item>TPC Members</item>
+    </string-array>
+    <string-array name="map_list">
+        <item>Map of Hotel</item>
+        <item>Hotels Around</item>
+    </string-array>
+</resources>

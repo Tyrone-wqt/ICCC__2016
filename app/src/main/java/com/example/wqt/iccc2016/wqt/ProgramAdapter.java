@@ -105,7 +105,7 @@ public class ProgramAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
             }
             final String mSessionItemText=mProgramSessionMap.get(mTimeLineList.get(index)).mContentAtTimeiDayj.get(rest-1);
             String textCatagory=mProgramSessionMap.get(mTimeLineList.get(index)).mItemShowAtTimeiDayj[rest-1];
-            ((ProgramSessionItemHolder) holder).mTextSessionItem.setText(textCatagory);
+            ((ProgramSessionItemHolder) holder).mTextSessionItem.setText(mSessionItemText);
             String[] textDetails=mProgramSessionMap.get(mTimeLineList.get(index)).mItemDetailAtTimeiDayj;
 
             if(textDetails!=null){
