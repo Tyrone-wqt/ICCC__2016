@@ -1,10 +1,13 @@
 package com.example.wqt.iccc2016.qpf;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -32,7 +35,7 @@ public class STCActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayShowTitleEnabled(false);
         initSTC();
         mListView.setAdapter(new CommitteeAdapter(STCActivity.this, R.layout.item_committee, mList));
-        //mListView.setOnItemClickListener(myOnItemClickListener);
+        mListView.setOnItemClickListener(myOnItemClickListener);
     }
 
     private void initView() {
@@ -50,6 +53,34 @@ public class STCActivity extends AppCompatActivity {
         Committee renping_liu=new Committee(R.drawable.renping_liu,"Renping Liu","Symposium Chair");
         mList.add(renping_liu);
     }
+
+    AdapterView.OnItemClickListener myOnItemClickListener = new AdapterView.OnItemClickListener() {
+        @Override
+        public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+            switch (i) {
+                case 0:
+                    Intent i0 = new Intent(STCActivity.this, CommitteeDetailsActivity.class);
+                    i0.putExtra("committee_name", "chau_yuen");
+                    startActivity(i0);
+                    break;
+                case 1:
+                    Intent i1 = new Intent(STCActivity.this, CommitteeDetailsActivity.class);
+                    i1.putExtra("committee_name", "chonggang_wang");
+                    startActivity(i1);
+                    break;
+                case 2:
+                    Intent i2 = new Intent(STCActivity.this, CommitteeDetailsActivity.class);
+                    i2.putExtra("committee_name", "yifan_chen");
+                    startActivity(i2);
+                    break;
+                case 3:
+                    Intent i3 = new Intent(STCActivity.this, CommitteeDetailsActivity.class);
+                    i3.putExtra("committee_name", "renping_liu");
+                    startActivity(i3);
+                    break;
+            }
+        }
+    };
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 

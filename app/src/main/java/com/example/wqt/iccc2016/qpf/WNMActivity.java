@@ -1,5 +1,6 @@
 package com.example.wqt.iccc2016.qpf;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.support.design.widget.FloatingActionButton;
@@ -8,6 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -34,7 +36,7 @@ public class WNMActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayShowTitleEnabled(false);
         initWNM();
         mListView.setAdapter(new CommitteeAdapter(WNMActivity.this, R.layout.item_committee, mList));
-        //mListView.setOnItemClickListener(myOnItemClickListener);
+        mListView.setOnItemClickListener(myOnItemClickListener);
     }
 
     private void initWNM() {
@@ -51,6 +53,29 @@ public class WNMActivity extends AppCompatActivity {
         mListView = (ListView) findViewById(R.id.lv_wnm);
 
     }
+    AdapterView.OnItemClickListener myOnItemClickListener = new AdapterView.OnItemClickListener() {
+        @Override
+        public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+            switch (i) {
+                case 0:
+                    Intent i0 = new Intent(WNMActivity.this, CommitteeDetailsActivity.class);
+                    i0.putExtra("committee_name", "honggang_wang");
+                    startActivity(i0);
+                    break;
+                case 1:
+                    Intent i1 = new Intent(WNMActivity.this, CommitteeDetailsActivity.class);
+                    i1.putExtra("committee_name", "qingchun_chen");
+                    startActivity(i1);
+                    break;
+                case 2:
+                    Intent i2 = new Intent(WNMActivity.this, CommitteeDetailsActivity.class);
+                    i2.putExtra("committee_name", "yunjian_jia");
+                    startActivity(i2);
+                    break;
+
+            }
+        }
+    };
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
