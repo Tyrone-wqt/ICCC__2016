@@ -64,7 +64,34 @@ public class CommitteeMainActivity extends AppCompatActivity implements AdapterV
                 Intent intentSPC = new Intent(this, SPCActivity.class);
                 startActivity(intentSPC);
                 break;
-
+            case 4:
+                Intent intentOCSN=new Intent(this,OCSNActivity.class);
+                startActivity(intentOCSN);
+                break;
+            case 5:
+                Intent intentNGN=new Intent(this,NGNActivity.class);
+                startActivity(intentNGN);
+                break;
+            case 6:
+                Intent intentCCT=new Intent(this,CCTActivity.class);
+                startActivity(intentCCT);
+                break;
+            case 7:
+                Intent intentSNBD=new Intent(this,SNBDActivity.class);
+                startActivity(intentSNBD);
+                break;
+            case 8:
+                Intent intentWCS=new Intent(this,WCSActivity.class);
+                startActivity(intentWCS);
+                break;
+            case 9:
+                Intent intentWNM=new Intent(this,WNMActivity.class);
+                startActivity(intentWNM);
+                break;
+            case 10:
+                Intent intentPSC=new Intent(this,PSCActivity.class);
+                startActivity(intentPSC);
+                break;
             case 11:
                 Intent intentMember = new Intent(this, MemberActivity.class);
                 startActivity(intentMember);

@@ -126,7 +126,16 @@
     <string name="committee_tong_song">Tong Song</string>
     <string name="committee_yinghai_zhang">Yinghai Zhang</string>
     <string name="committee_zhisheng_niu">Zhisheng Niu</string>
+
+
     <string name="title_activity_committee_detail">CommitteeDetailActivity</string>
     <string name="title_activity_stc">STC</string>
     <string name="title_activity_spc">SPC</string>
+    <string name="title_activity_ocsn">OCSN</string>
+    <string name="title_activity_ngn">NGN</string>
+    <string name="title_activity_cct">CCT</string>
+    <string name="title_activity_sndb">SNDB</string>
+    <string name="title_activity_wcs">WCS</string>
+    <string name="title_activity_wnm">WNM</string>
+    <string name="title_activity_psc">PSC</string>
 </resources>

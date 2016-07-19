@@ -81,6 +81,34 @@
         <activity
             android:name=".qpf.SPCActivity"
             android:label="@string/title_activity_spc"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".qpf.OCSNActivity"
+            android:label="@string/title_activity_ocsn"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".qpf.NGNActivity"
+            android:label="@string/title_activity_ngn"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".qpf.CCTActivity"
+            android:label="@string/title_activity_cct"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".qpf.SNBDActivity"
+            android:label="@string/title_activity_sndb"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".qpf.WCSActivity"
+            android:label="@string/title_activity_wcs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".qpf.WNMActivity"
+            android:label="@string/title_activity_wnm"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".qpf.PSCActivity"
+            android:label="@string/title_activity_psc"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
