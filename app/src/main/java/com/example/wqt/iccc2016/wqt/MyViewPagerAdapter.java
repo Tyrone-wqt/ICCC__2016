@@ -438,6 +438,8 @@ public class MyViewPagerAdapter extends PagerAdapter {
             return "banquet";
         else if (mSessionItemText.contains("Lunch"))
             return "lunch";
+        else if (mSessionItemText.contains("Steering Committee"))
+            return "steering";
         else
             return null;
     }
