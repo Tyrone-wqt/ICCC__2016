@@ -9,4 +9,5 @@
     <color name="colorRadio">#000000</color>
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorCardViewBg">#E0E0E0</color>
+    <color name="colorSubFont">#909090</color>
 </resources>

@@ -14,10 +14,11 @@
     <string name="icon_font_hotel_and_travel">&#xe71f;</string>
     <string name="icon_font_message">&#xe645;</string>
     <string name="icon_font_version_update">&#xe60f;</string>
-    <string name="title_activity_patron">Patrons</string>
+    <string name="title_activity_patron">About</string>
     <string name="icon_font_patron_huawei">&#xe789;</string>
     <string name="title_activity_welcome">Welcome</string>
     <string name="title_activity_committee">Committee</string>
+    <string name="fragment_hotel_title4">Travel</string>
     <string name="welcome_title">WELCOME</string>
     <string name="title_activity_version">Version</string>
     <string name="welcome_content">\tOn behalf of the Executive Committee and the hosting University of Electronic Science and Technology of China,
@@ -42,5 +43,366 @@
     <string name="huawei_introduction">Huawei is a leading global information and communications technology (ICT) solutions provider. Driven by responsible operations, ongoing innovation, and open collaboration, we have established a competitive ICT portfolio of end-to-end solutions in telecom and enterprise networks, devices, and cloud computing. Our ICT solutions, products, and services are used in more than 170 countries and regions, serving over one-third of the world\'s population. With more than 170,000 employees, Huawei is committed to enabling the future information society, and building a Better Connected World.</string>
     <string name="title_activity_detail">Detail</string>
 
+    <string-array name="item_show_time0_day1">
+        <item>Conference Registration</item>
+    </string-array>
 
+
+    <string-array name="item_show_time1_day1">
+        <item>Workshops</item>
+        <item>Workshops</item>
+        <item>Workshops</item>
+        <item>Tutorials</item>
+        <item>Tutorials</item>
+        <item>Tutorials</item>
+    </string-array>
+
+    <string-array name="item_detail_time1_day1">
+        <item>Emerging MIMO Technology in Large-Scale Active Antenna System</item>
+        <item>Wireless Communications for Internet of Things Networking</item>
+        <item>The First International Workshop on Space Information Networking</item>
+        <item>Molecular Communication: From Theory to Standard</item>
+        <item>Recent Advances in Wireless Localization</item>
+        <item>Full-Duplex Communications and Networks</item>
+    </string-array>
+
+    <string-array name="item_show_time2_day1">
+        <item>Coffee Break</item>
+    </string-array>
+
+    <string-array name="item_show_time3_day1">
+        <item>Workshops</item>
+        <item>Workshops</item>
+        <item>Workshops</item>
+        <item>Tutorials</item>
+        <item>Tutorials</item>
+        <item>Tutorials</item>
+    </string-array>
+
+    <string-array name="item_detail_time3_day1">
+        <item>Emerging MIMO Technology in Large-Scale Active Antenna System</item>
+        <item>Wireless Communications for Internet of Things Networking</item>
+        <item>Space Information Networking</item>
+        <item>Molecular Communication: From Theory to Standard</item>
+        <item>Recent Advances in Wireless Localization</item>
+        <item>Full-Duplex Communications and Networks</item>
+    </string-array>
+
+    <string-array name="item_show_time4_day1">
+        <item>Lunch</item>
+    </string-array>
+
+    <string-array name="item_show_time5_day1">
+        <item>Tutorials</item>
+        <item>Tutorials</item>
+        <item>Tutorials</item>
+        <item>Tutorials</item>
+        <item>Tutorials</item>
+        <item>Tutorials</item>
+    </string-array>
+
+    <string-array name="item_detail_time5_day1">
+        <item>Vehicular Communications and Networking: The Gateway to Connected Mobility</item>
+        <item>Low-Cost Massive MIMO：From Theory to Practice</item>
+        <item>Networks and Devices Revolution for 5G: Fundamentals and Recent Advances</item>
+        <item>Channel Characterization and Modeling of 5G Wireless Communication Systems</item>
+        <item>New Type Non-orthogonal Multiple Access for 5G Networks</item>
+        <item>NOMA: A Promising Multiple Access Technique for 5G and Beyond</item>
+    </string-array>
+
+    <string-array name="item_show_time6_day1">
+        <item>Coffee Break</item>
+    </string-array>
+
+    <string-array name="item_show_time7_day1">
+        <item>Tutorials</item>
+        <item>Tutorials</item>
+        <item>Tutorials</item>
+        <item>Tutorials</item>
+        <item>Tutorials</item>
+        <item>Tutorials</item>
+    </string-array>
+
+    <string-array name="item_detail_time7_day1">
+        <item>Vehicular Communications and Networking: The Gateway to Connected Mobility</item>
+        <item>Low-Cost Massive MIMO：From Theory to Practice</item>
+        <item>Networks and Devices Revolution for 5G: Fundamentals and Recent Advances</item>
+        <item>Channel Characterization and Modeling of 5G Wireless Communication Systems</item>
+        <item>New Type Non-orthogonal Multiple Access for 5G Networks</item>
+        <item>NOMA: A Promising Multiple Access Technique for 5G and Beyond</item>
+    </string-array>
+
+    <string-array name="item_show_time8_day1">
+        <item>Welcome Reception</item>
+    </string-array>
+
+    <string-array name="item_show_time0_day2">
+        <item>Conference Registration</item>
+    </string-array>
+
+    <string-array name="item_show_time1_day2">
+        <item>Welcome Opening</item>
+    </string-array>
+
+    <string-array name="item_show_time2_day2">
+        <item>Keynote Speech</item>
+        <item>Keynote Speech</item>
+    </string-array>
+
+    <string-array name="item_detail_time2_day2">
+        <item>The Architecture and Critical Technologies of Space Information Networks (Dr. Quan Yu)</item>
+        <item>LTE on Unlicensed Band (Prof. Geoffrey Ye Li)</item>
+    </string-array>
+
+    <string-array name="item_show_time3_day2">
+        <item>Coffee Break &amp; Poster Session-1</item>
+    </string-array>
+
+    <string-array name="item_show_time4_day2">
+        <item>TECHNICAL Sessions</item>
+        <item>TECHNICAL Sessions</item>
+        <item>TECHNICAL Sessions</item>
+        <item>Invited Talks</item>
+        <item>Invited Talks</item>
+    </string-array>
+
+    <string-array name="item_detail_time4_day2">
+        <item>Cooperative Networks and Relaying Communications</item>
+        <item>Smart Controlling and Processing in Communications</item>
+        <item>Signal Processing for Massive MIMO</item>
+        <item>Channel Characterization and Modeling of 5G Wireless Communication Systems</item>
+        <item>New Type Non-orthogonal Multiple Access for 5G Networks</item>
+
+    </string-array>
+
+    <string-array name="item_show_time5_day2">
+        <item>Lunch</item>
+    </string-array>
+
+    <string-array name="item_show_time6_day2">
+        <item>TECHNICAL Sessions</item>
+        <item>TECHNICAL Sessions</item>
+        <item>TECHNICAL Sessions</item>
+        <item>TECHNICAL Sessions</item>
+        <item>Invited Talks</item>
+        <item>Invited Talks</item>
+        <item>Steering Committee Meeting</item>
+    </string-array>
+
+    <string-array name="item_detail_time6_day2">
+        <item>Device to Device Communications</item>
+        <item>Networks and Computing Theory</item>
+        <item>Signal Processing for Cognitive and Cooperative Communications</item>
+        <item>Small Cell and QoE</item>
+        <item>Localization of Internet of Things Network  &amp;  Energy Efficient Design  &amp;  Wireless sensor network for structural health monitoring</item>
+        <item>Complexity Metrics  &amp;  Evolution of Half Duplex  &amp;  Topology Control</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="item_show_time7_day2">
+        <item>Coffee Break</item>
+    </string-array>
+
+
+    <string-array name="item_show_time8_day2">
+        <item>TECHNICAL Sessions</item>
+        <item>TECHNICAL Sessions</item>
+        <item>TECHNICAL Sessions</item>
+        <item>TECHNICAL Sessions</item>
+        <item>TECHNICAL Sessions</item>
+        <item>Industrial &amp; Academic Panels (IAP)</item>
+        <item>Steering Committee Meeting</item>
+    </string-array>
+
+    <string-array name="item_detail_time8_day2">
+        <item>Energy Harvesting and Energy Efficiency</item>
+        <item>Physical Layer Security and Full Duplex</item>
+        <item>Multimedia Processing and Detection</item>
+        <item>Interconnected Vehicles and Energy Scheduling</item>
+        <item>5G and Data Center Networks	</item>
+        <item>High Frequency - The Road to Reaching Giga-and Tera-bits Era</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="item_show_time9_day2">
+        <item>Banquet</item>
+    </string-array>
+
+    <string-array name="item_show_time0_day3">
+        <item>Conference</item>
+    </string-array>
+
+    <string-array name="item_show_time1_day3">
+        <item>Keynote Speech</item>
+        <item>Keynote Speech</item>
+    </string-array>
+
+    <string-array name="item_detail_time1_day3">
+        <item>5G is Coming  (Peiying Zhu)</item>
+        <item>Multiple Access and Power Efficiency in Wireless Communications (Prof. Hikmet SARI)</item>
+    </string-array>
+
+    <string-array name="item_show_time2_day3">
+        <item>Coffee Break &amp; Poster Session-1</item>
+    </string-array>
+
+    <string-array name="item_show_time3_day3">
+        <item>TECHNICAL Sessions</item>
+        <item>TECHNICAL Sessions</item>
+        <item>Invited Talks</item>
+        <item>TECHNICAL Sessions</item>
+        <item>TECHNICAL Sessions</item>
+    </string-array>
+
+    <string-array name="item_detail_time3_day3">
+        <item>Networking and multimedia applications</item>
+        <item>Multiantenna and MIMO in Wireless Networks</item>
+        <item>Cost Efficiency for Economical Mobile Data Traffic Management  &amp;  Load Balancing  &amp;  Transmitting Correlated Sources</item>
+        <item>Social Networks and Big Data</item>
+        <item>Privacy and Security</item>
+
+    </string-array>
+
+    <string-array name="item_show_time4_day3">
+        <item>Lunch</item>
+    </string-array>
+
+
+    <string-array name="item_show_time5_day3">
+        <item>TECHNICAL Sessions</item>
+        <item>TECHNICAL Sessions</item>
+        <item>TECHNICAL Sessions</item>
+        <item>TECHNICAL Sessions</item>
+        <item>TECHNICAL Sessions</item>
+    </string-array>
+
+    <string-array name="item_detail_time5_day3">
+        <item>Transmission</item>
+        <item>MIMO</item>
+        <item>Wireless Communications</item>
+        <item>Optical Wireless Communications</item>
+        <item>Privacy and Security</item>
+
+    </string-array>
+
+    <string-array name="item_show_time6_day3">
+        <item>Coffee Break</item>
+    </string-array>
+
+    <string-array name="item_show_time7_day3">
+        <item>TECHNICAL Sessions</item>
+        <item>TECHNICAL Sessions</item>
+        <item>TECHNICAL Sessions</item>
+        <item>TECHNICAL Sessions</item>
+
+    </string-array>
+
+    <string-array name="item_detail_time7_day3">
+        <item>Small Cells and Heterogeneous Networks</item>
+        <item>Multiple Access</item>
+        <item>Emerging Trend in Communications</item>
+        <item>Optical Communications</item>
+    </string-array>
+
+    <string name="about_content_text">Since its commencement in 2012, the  IEEE/CIC International Conference on Communications in China (ICCC) conference has grown steadily from a brand new conference with a strong vision, to a unique venue in bringing together global researchers and practitioners in areas of communications to the greater China region. In particular, IEEE/CIC ICCC 2016 aims at addressing a key theme on “Ubiquitous Communications &amp; Computing for Future Internet”, which broadly cover all disciplines of communications from fundamental research to emerging applications, while emphasizing shaping technologies in the modern IT era.</string>
+    <string name="title_activity_member">TPC Members</string>
+    <string name="title_activity_technical_program_committee">TPC
+    </string>
+    <string name="title_activity_committee_main">Committee</string>
+    <string name="title_activity_maps">Maps</string>
+    <string name="title_activity_map_of_hotel">Map Of Hotel</string>
+    <string name="title_activity_hotels_around">Hotels Around</string>
+    <string name="title_activity_committee_details">CommitteeDetailsActivity</string>
+
+    <!--Committee Name-->
+    <string name="committee_shaoqian_li">Shaoqian Li</string>
+    <string name="committee_xingsheng_zhang">Xingsheng Zhang</string>
+    <string name="committee_wei_zhang">Wei Zhang</string>
+    <string name="committee_meixia_tao">Meixia Tao</string>
+    <string name="committee_hongfang_yu">Hongfang Yu</string>
+    <string name="committee_kun_yang">Kun Yang</string>
+    <string name="committee_shui_yu">Shui Yu</string>
+    <string name="committee_kun_wang">Kun Wang</string>
+    <string name="committee_bin_ma">Bin Ma</string>
+    <string name="committee_bruce">Bruce Worthman</string>
+    <string name="committee_bo_yan">Bo Yan</string>
+    <string name="committee_xiaoyan_huang">Xiaoyan Huang</string>
+    <string name="committee_rongping_lin">Rongping Lin</string>
+    <string name="committee_jingran_lin">Jingran Lin</string>
+    <string name="committee_yue_cao">Yue Cao</string>
+    <string name="committee_geyong_min">Geyong Min</string>
+    <string name="committee_sumei_sun">Sumei Sun</string>
+    <string name="committee_xuming_fang">Xuming Fang</string>
+    <string name="committee_gang_wu">Gang Wu</string>
+    <string name="committee_pingyi_fan">Pingyi Fan</string>
+    <string name="committee_guodong_zhao">Guodong Zhao</string>
+    <string name="committee_fan_wu">Fan Wu</string>
+    <string name="committee_yunkai_wei">Yunkai Wei</string>
+    <string name="committee_xuemin_shen">Xuemin(Sherman)Shen</string>
+    <string name="committee_ke_gong">Ke Gong</string>
+    <string name="committee_zhen_yang">Zhen Yang</string>
+    <string name="committee_khaled">Khaled B. Letaief</string>
+    <string name="committee_kwang">Kwang-Cheng Chen</string>
+    <string name="committee_steve">Steve Weinstein</string>
+    <string name="committee_tong_song">Tong Song</string>
+    <string name="committee_yinghai_zhang">Yinghai Zhang</string>
+    <string name="committee_zhisheng_niu">Zhisheng Niu</string>
+
+
+    <string name="title_activity_committee_detail">CommitteeDetailActivity</string>
+    <string name="title_activity_stc">STC</string>
+    <string name="title_activity_spc">SPC</string>
+    <string name="title_activity_ocsn">OCSN</string>
+    <string name="title_activity_ngn">NGN</string>
+    <string name="title_activity_cct">CCT</string>
+    <string name="title_activity_sndb">SNDB</string>
+    <string name="title_activity_wcs">WCS</string>
+    <string name="title_activity_wnm">WNM</string>
+    <string name="title_activity_psc">PSC</string>
+
+    <string name="title_activity_general_chairs">GeneralChairsActivity</string>
+<string name="general_chairs_content">\tOn behalf of the Executive Committee and the hosting University of Electronic Science and Technology of China,
+        it is our great pleasure to welcome you to the fifth IEEE/CIC International Conference on Communications in China (ICCC 2016) in the magnificent
+        city of Chengdu, China, 27-29 July, 2016.\n\n
+        Since its commencement in 2012, the ICCC conference has grown steadily from a brand new conference with
+        a strong vision, to a unique venue in bringing together global researchers and practitioners in areas of communications to the greater China region.
+        In particular, this year’s ICCC aims at addressing a key theme on “Ubiquitous Communications &amp; Computing for Future Internet”,
+        which broadly cover all disciplines of communications from fundamental research to emerging applications, while emphasizing society-shaping
+        technologies in the modern IT era.\n\n
+        In addition to providing a major forum for people to present their frontier research work and discuss the
+        latest breakthroughs, the ICCC 2016 also features Keynotes, Plenary Speeches, Invited Talks, Tutorials, Industrial &amp; Academic Panels,
+        Exhibitions, and dedicated Workshops. For those who attend the ICCC for the first time, you will soon appreciate the fact that ICCC is more
+        than just an outstanding technical conference, it is also a friendly rendezvous to interact, inspire, and discover.\n\n
+        This year we are honored to have four world renowned scholars to be our keynote speakers. Not only have each of them made extraordinary
+        contributions to the fields of communications, their diverse expertise and keen visions in both academia and industry are equally remarkable.
+        We look forward to their stimulating and scholastic seminars.\n\n
+        Finally, we wish all the participants a very fruitful and productive conference, and also an unforgettable stay in Chengdu.</string>
+    <string name="general_chairs_end">General Chairs, IEEE/CIC ICCC 2016</string>
+    <string name="title_activity_technical_program_chairs">Technical Program Chairs</string>
+    <string name="technical_program_chairs_content">On behalf of the Technical Program Committee, it is our great pleasure to welcome you to the
+        fifth IEEE/CIC International Conference on Communications in China (ICCC 2016), in the magnificent city of Chengdu. Under the theme of
+        “Ubiquitous Communications &amp; Computing for Future Internet”, IEEE/CIC ICCC 2016 brings together researchers to discuss the latest
+        advances in communications. The technical program of ICCC 2016 features 4 world-class keynote speeches, 9 technical symposia, 9 tutorials,
+        1 industrial and academic panel, and 4 workshops. In addition, we have 15 symposium invited talks delivered by famous experts from
+        academia and industry.\n\n
+
+        In this fifth edition of IEEE ComSoc’s flagship conference in China, we have maintained the high quality of the conference.
+        We received 313 paper submissions from about 30 countries and regions. Out of these, 151 papers were accepted,
+        corresponding to an acceptance rate of 48.24%. All papers were carefully peer reviewed by more than 400 TPC members and reviewers,
+        with each paper evaluated by at least three reviewers. Within these accepted papers, we also have 7 invited papers by established experts
+        in their fields. All these papers and talks are organized into 25 lecture-style oral sessions and 2 interactive poster sessions.\n\n
+
+         We are confident that you will find the technical program of IEEE/CIC ICCC 2016 very stimulating and inspiring. We warmly invite all of you
+        to join us in interacting with the keynote/plenary and invited speakers, and industrial panelists, and more importantly, interacting with all
+        of your peer attendees. A technical program like this would not have been possible without the hard work and devotion of many of our organizing
+        committee members and volunteers. We would like to especially thank the Symposium Chairs, Workshop Chairs, Tutorial Chairs, and Industrial and
+        Academic Panel Chairs for their exceptional work. We would also like to express our sincere thanks to all the TPC members and reviewers for their
+        help in the paper review process.\n\n
+
+        Finally, we wish to thank all authors and attendees for participating in the conference. We hope you will have a fruitful and memorable experience
+        at IEEE/CIC ICCC 2016 in Chengdu.\n\n
+        </string>
+    <string name="map_of_hotel">Map of Wangjiang Hotel</string>
+    <string name="hotel_around">Hotels around the Conference Venue</string>
+    <string name="technical_program_chairs_end">Technical Program Chairs, IEEE/CIC ICCC 2016</string>
 </resources>

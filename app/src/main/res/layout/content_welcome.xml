@@ -10,33 +10,15 @@
     tools:showIn="@layout/activity_welcome">
 
     <ImageView
-        android:id="@+id/welcom_head_image"
+        android:id="@+id/welcome_head_image"
         android:layout_width="match_parent"
         android:layout_height="100dip"
-        android:src="@drawable/welcome_head_image"/>
+        android:src="@drawable/welcome_head_image" />
 
-    <ScrollView
+    <ListView
+        android:id="@+id/lv_welcome"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_marginLeft="12dp"
-        android:layout_marginRight="12dp"
-        android:scrollbars="none"
-        android:layout_weight="1">
-        <TextView
-            android:id="@+id/tv_welcome_content"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/welcome_content"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
-            android:textSize="16sp"/>
-    </ScrollView>
-    <TextView
-        android:id="@+id/tv_welcome_end"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/welcome_end"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:textSize="18sp" />
+        android:layout_height="match_parent"
+        android:divider="@drawable/divider"
+        android:dividerHeight="30dp"/>
 </LinearLayout>

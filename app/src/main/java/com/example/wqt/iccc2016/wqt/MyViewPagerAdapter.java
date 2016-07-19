@@ -32,9 +32,9 @@ public class MyViewPagerAdapter extends PagerAdapter {
     List<String> mTimeLine2;
     List<String> mTimeLine3;
 
-    Map<String, List<String>> mTimeLineContentMap1;
-    Map<String, List<String>> mTimeLineContentMap2;
-    Map<String, List<String>> mTimeLineContentMap3;
+    Map<String, ProgramBean> mTimeLineContentMap1;
+    Map<String, ProgramBean> mTimeLineContentMap2;
+    Map<String, ProgramBean> mTimeLineContentMap3;
     LayoutInflater mLayoutInflater;
 
     OnItemClickListener mOnItemClickListener;
@@ -77,61 +77,83 @@ public class MyViewPagerAdapter extends PagerAdapter {
 
         mTimeLineContentMap1 = new HashMap<>();
         List<String> mContentAtTime0Day1 = new ArrayList<>();
+        String[] item_show_time0_day1=mContext.getResources().getStringArray(R.array.item_show_time0_day1);
         mContentAtTime0Day1.add("Conference Registration");
-        mTimeLineContentMap1.put(mTimeLine1.get(0), mContentAtTime0Day1);
+        ProgramBean mProgramBeanTime0Day1=new ProgramBean(mContentAtTime0Day1,item_show_time0_day1,null);
+        mTimeLineContentMap1.put(mTimeLine1.get(0), mProgramBeanTime0Day1);
 
         List<String> mContentAtTime1Day1 = new ArrayList<>();
+        String[] item_show_time1_day1=mContext.getResources().getStringArray(R.array.item_show_time1_day1);
+        String[] item_detail_time1_day1=mContext.getResources().getStringArray(R.array.item_detail_time1_day1);
         mContentAtTime1Day1.add("E-MIMO Workshop-1");
         mContentAtTime1Day1.add("WIN Workshop-2");
         mContentAtTime1Day1.add("SIN Workshop-3");
         mContentAtTime1Day1.add("Tutorial#2");
         mContentAtTime1Day1.add("Tutorial#5");
         mContentAtTime1Day1.add("Tutorial#9");
-        mTimeLineContentMap1.put(mTimeLine1.get(1), mContentAtTime1Day1);
+        ProgramBean mProgramBeanTime1Day1=new ProgramBean(mContentAtTime1Day1,item_show_time1_day1,item_detail_time1_day1);
+        mTimeLineContentMap1.put(mTimeLine1.get(1), mProgramBeanTime1Day1);
 
         List<String> mContentAtTime2Day1 = new ArrayList<>();
+        String[] item_show_time2_day1=mContext.getResources().getStringArray(R.array.item_show_time2_day1);
         mContentAtTime2Day1.add("Coffee Break");
-        mTimeLineContentMap1.put(mTimeLine1.get(2), mContentAtTime2Day1);
+        ProgramBean mProgramBeanTime2Day1=new ProgramBean(mContentAtTime2Day1,item_show_time2_day1,null);
+        mTimeLineContentMap1.put(mTimeLine1.get(2), mProgramBeanTime2Day1);
 
         List<String> mContentAtTime3Day1 = new ArrayList<>();
+        String[] item_show_time3_day1=mContext.getResources().getStringArray(R.array.item_show_time3_day1);
+        String[] item_detail_time3_day1=mContext.getResources().getStringArray(R.array.item_detail_time3_day1);
         mContentAtTime3Day1.add("E-MIMO Workshop-2");
         mContentAtTime3Day1.add("WIN Workshop-2");
         mContentAtTime3Day1.add("SIN Workshop-3");
         mContentAtTime3Day1.add("Tutorial#2");
         mContentAtTime3Day1.add("Tutorial#5");
         mContentAtTime3Day1.add("Tutorial#9");
-        mTimeLineContentMap1.put(mTimeLine1.get(3), mContentAtTime3Day1);
+        ProgramBean mProgramBeanTime3Day1=new ProgramBean(mContentAtTime3Day1,item_show_time3_day1,item_detail_time3_day1);
+        mTimeLineContentMap1.put(mTimeLine1.get(3), mProgramBeanTime3Day1);
 
         List<String> mContentAtTime4Day1 = new ArrayList<>();
+        String[] item_show_time4_day1=mContext.getResources().getStringArray(R.array.item_show_time4_day1);
         mContentAtTime4Day1.add("Lunch");
-        mTimeLineContentMap1.put(mTimeLine1.get(4), mContentAtTime4Day1);
+        ProgramBean mProgramBeanTime4Day1=new ProgramBean(mContentAtTime4Day1,item_show_time4_day1,null);
+        mTimeLineContentMap1.put(mTimeLine1.get(4), mProgramBeanTime4Day1);
 
         List<String> mContentAtTime5Day1 = new ArrayList<>();
+        String[] item_show_time5_day1=mContext.getResources().getStringArray(R.array.item_show_time5_day1);
+        String[] item_detail_time5_day1=mContext.getResources().getStringArray(R.array.item_detail_time5_day1);
         mContentAtTime5Day1.add("Tutorial#3");
         mContentAtTime5Day1.add("Tutorial#1");
         mContentAtTime5Day1.add("Tutorial#6");
         mContentAtTime5Day1.add("Tutorial#4");
         mContentAtTime5Day1.add("Tutorial#7");
         mContentAtTime5Day1.add("Tutorial#8");
-        mTimeLineContentMap1.put(mTimeLine1.get(5), mContentAtTime5Day1);
+        ProgramBean mProgramBeanTime5Day1=new ProgramBean(mContentAtTime5Day1,item_show_time5_day1,item_detail_time5_day1);
+        mTimeLineContentMap1.put(mTimeLine1.get(5), mProgramBeanTime5Day1);
 
         List<String> mContentAtTime6Day1 = new ArrayList<>();
+        String[] item_show_time6_day1=mContext.getResources().getStringArray(R.array.item_show_time6_day1);
         mContentAtTime6Day1.add("Coffee Break");
-        mTimeLineContentMap1.put(mTimeLine1.get(6), mContentAtTime6Day1);
+        ProgramBean mProgramBeanTime6Day1=new ProgramBean(mContentAtTime6Day1,item_show_time6_day1,null);
+        mTimeLineContentMap1.put(mTimeLine1.get(6), mProgramBeanTime6Day1);
 
         List<String> mContentAtTime7Day1 = new ArrayList<>();
+        String[] item_show_time7_day1=mContext.getResources().getStringArray(R.array.item_show_time7_day1);
+        String[] item_detail_time7_day1=mContext.getResources().getStringArray(R.array.item_detail_time7_day1);
         mContentAtTime7Day1.add("Tutorial#3");
         mContentAtTime7Day1.add("Tutorial#1");
         mContentAtTime7Day1.add("Tutorial#6");
         mContentAtTime7Day1.add("Tutorial#4");
         mContentAtTime7Day1.add("Tutorial#7");
         mContentAtTime7Day1.add("Tutorial#8");
-        mTimeLineContentMap1.put(mTimeLine1.get(7), mContentAtTime7Day1);
+        ProgramBean mProgramBeanTime7Day1=new ProgramBean(mContentAtTime7Day1,item_show_time7_day1,item_detail_time7_day1);
+        mTimeLineContentMap1.put(mTimeLine1.get(7), mProgramBeanTime7Day1);
 
 
         List<String> mContentAtTime8Day1 = new ArrayList<>();
+        String[] item_show_time8_day1=mContext.getResources().getStringArray(R.array.item_show_time8_day1);
         mContentAtTime8Day1.add("Reception");
-        mTimeLineContentMap1.put(mTimeLine1.get(8), mContentAtTime8Day1);
+        ProgramBean mProgramBeanTime8Day1=new ProgramBean(mContentAtTime8Day1,item_show_time8_day1,null);
+        mTimeLineContentMap1.put(mTimeLine1.get(8), mProgramBeanTime8Day1);
         //********************************************
 
         //day2 data
@@ -147,44 +169,58 @@ public class MyViewPagerAdapter extends PagerAdapter {
         mTimeLine2.add("16:00-17:30");
         mTimeLine2.add("18:30-21:00");
 
-
         mTimeLineContentMap2 = new HashMap<>();
         List<String> mContentAtTime0Day2 = new ArrayList<>();
+        String[] item_show_time0_day2=mContext.getResources().getStringArray(R.array.item_show_time0_day2);
         mContentAtTime0Day2.add("Conference Registration");
-        mTimeLineContentMap2.put(mTimeLine2.get(0), mContentAtTime0Day2);
+        ProgramBean mProgramBeanTime0Day2=new ProgramBean(mContentAtTime0Day2,item_show_time0_day2,null);
+        mTimeLineContentMap2.put(mTimeLine2.get(0), mProgramBeanTime0Day2);
 
 
         List<String> mContentAtTime1Day2 = new ArrayList<>();
+        String[] item_show_time1_day2=mContext.getResources().getStringArray(R.array.item_show_time1_day2);
         mContentAtTime1Day2.add("Welcome Opening");
-        mTimeLineContentMap2.put(mTimeLine2.get(1), mContentAtTime1Day2);
+        ProgramBean mProgramBeanTime1Day2=new ProgramBean(mContentAtTime1Day2,item_show_time1_day2,null);
+        mTimeLineContentMap2.put(mTimeLine2.get(1), mProgramBeanTime1Day2);
 
         List<String> mContentAtTime2Day2 = new ArrayList<>();
+        String[] item_show_time2_day2=mContext.getResources().getStringArray(R.array.item_show_time2_day2);
+        String[] item_detail_time2_day2=mContext.getResources().getStringArray(R.array.item_detail_time2_day2);
         mContentAtTime2Day2.add("Keynote Speech #1");
         mContentAtTime2Day2.add("Keynote Speech #2");
-        mTimeLineContentMap2.put(mTimeLine2.get(2), mContentAtTime2Day2);
+        ProgramBean mProgramBeanTime2Day2=new ProgramBean(mContentAtTime2Day2,item_show_time2_day2,item_detail_time2_day2);
+        mTimeLineContentMap2.put(mTimeLine2.get(2), mProgramBeanTime2Day2);
 
 
         List<String> mContentAtTime3Day2 = new ArrayList<>();
+        String[] item_show_time3_day2=mContext.getResources().getStringArray(R.array.item_show_time3_day2);
         mContentAtTime3Day2.add("Coffee Break & Poster Session-1");
-        mTimeLineContentMap2.put(mTimeLine2.get(3), mContentAtTime3Day2);
+        ProgramBean mProgramBeanTime3Day2=new ProgramBean(mContentAtTime3Day2,item_show_time3_day2,null);
+        mTimeLineContentMap2.put(mTimeLine2.get(3), mProgramBeanTime3Day2);
 
 
         List<String> mContentAtTime4Day2 = new ArrayList<>();
+        String[] item_show_time4_day2=mContext.getResources().getStringArray(R.array.item_show_time4_day2);
+        String[] item_detail_time4_day2=mContext.getResources().getStringArray(R.array.item_detail_time4_day2);
         mContentAtTime4Day2.add("WCS-1");
         mContentAtTime4Day2.add("CCT-1");
         mContentAtTime4Day2.add("SPC-1");
-        mContentAtTime4Day2.add("IAP");
         mContentAtTime4Day2.add("Invited-1");
         mContentAtTime4Day2.add("Invited-2");
-        mTimeLineContentMap2.put(mTimeLine2.get(4), mContentAtTime4Day2);
+        ProgramBean mProgramBeanTime4Day2=new ProgramBean(mContentAtTime4Day2,item_show_time4_day2,item_detail_time4_day2);
+        mTimeLineContentMap2.put(mTimeLine2.get(4), mProgramBeanTime4Day2);
 
 
         List<String> mContentAtTime5Day2 = new ArrayList<>();
+        String[] item_show_time5_day2=mContext.getResources().getStringArray(R.array.item_show_time5_day2);
         mContentAtTime5Day2.add("Lunch");
-        mTimeLineContentMap2.put(mTimeLine2.get(5), mContentAtTime5Day2);
+        ProgramBean mProgramBeanTime5Day2=new ProgramBean(mContentAtTime5Day2,item_show_time5_day2,null);
+        mTimeLineContentMap2.put(mTimeLine2.get(5), mProgramBeanTime5Day2);
 
 
         List<String> mContentAtTime6Day2 = new ArrayList<>();
+        String[] item_show_time6_day2=mContext.getResources().getStringArray(R.array.item_show_time6_day2);
+        String[] item_detail_time6_day2=mContext.getResources().getStringArray(R.array.item_detail_time6_day2);
         mContentAtTime6Day2.add("WCS-2");
         mContentAtTime6Day2.add("CCT-2");
         mContentAtTime6Day2.add("SPC-2");
@@ -192,28 +228,36 @@ public class MyViewPagerAdapter extends PagerAdapter {
         mContentAtTime6Day2.add("Invited-3");
         mContentAtTime6Day2.add("Invited-4");
         mContentAtTime6Day2.add("Steering Committee Meeting");
-        mTimeLineContentMap2.put(mTimeLine2.get(6), mContentAtTime6Day2);
+        ProgramBean mProgramBeanTime6Day2=new ProgramBean(mContentAtTime6Day2,item_show_time6_day2,item_detail_time6_day2);
+        mTimeLineContentMap2.put(mTimeLine2.get(6), mProgramBeanTime6Day2);
 
 
         List<String> mContentAtTime7Day2 = new ArrayList<>();
+        String[] item_show_time7_day2=mContext.getResources().getStringArray(R.array.item_show_time7_day2);
         mContentAtTime7Day2.add("Coffee Break");
-        mTimeLineContentMap2.put(mTimeLine2.get(7), mContentAtTime7Day2);
+        ProgramBean mProgramBeanTime7Day2=new ProgramBean(mContentAtTime7Day2,item_show_time7_day2,null);
+        mTimeLineContentMap2.put(mTimeLine2.get(7), mProgramBeanTime7Day2);
 
 
         List<String> mContentAtTime8Day2 = new ArrayList<>();
+        String[] item_show_time8_day2=mContext.getResources().getStringArray(R.array.item_show_time8_day2);
+        String[] item_detail_time8_day2=mContext.getResources().getStringArray(R.array.item_detail_time8_day2);
         mContentAtTime8Day2.add("WCS-3");
         mContentAtTime8Day2.add("WCS-4");
         mContentAtTime8Day2.add("SPC-3");
         mContentAtTime8Day2.add("NGN-2");
         mContentAtTime8Day2.add("NGN-3");
-        mContentAtTime8Day2.add("Invited-4");
+        mContentAtTime8Day2.add("IAP");
         mContentAtTime8Day2.add("Steering Committee Meeting");
-        mTimeLineContentMap2.put(mTimeLine2.get(8), mContentAtTime8Day2);
+        ProgramBean mProgramBeanTime8Day2=new ProgramBean(mContentAtTime8Day2,item_show_time8_day2,item_detail_time8_day2);
+        mTimeLineContentMap2.put(mTimeLine2.get(8), mProgramBeanTime8Day2);
 
 
         List<String> mContentAtTime9Day2 = new ArrayList<>();
+        String[] item_show_time9_day2=mContext.getResources().getStringArray(R.array.item_show_time9_day2);
         mContentAtTime9Day2.add("Banquet");
-        mTimeLineContentMap2.put(mTimeLine2.get(9), mContentAtTime9Day2);
+        ProgramBean mProgramBeanTime9Day2=new ProgramBean(mContentAtTime9Day2,item_show_time9_day2,null);
+        mTimeLineContentMap2.put(mTimeLine2.get(9), mProgramBeanTime9Day2);
         //***********************************8**************
 
         //day3 data
@@ -228,52 +272,71 @@ public class MyViewPagerAdapter extends PagerAdapter {
         mTimeLine3.add("16:00-17:30");
 
         mTimeLineContentMap3 = new HashMap<>();
-
         List<String> mContentAtTime0Day3 = new ArrayList<>();
+        String[] item_show_time0_day3=mContext.getResources().getStringArray(R.array.item_show_time0_day3);
         mContentAtTime0Day3.add("Conference Registration");
-        mTimeLineContentMap3.put(mTimeLine3.get(0), mContentAtTime0Day3);
+        ProgramBean mProgramBeanTime0Day3=new ProgramBean(mContentAtTime0Day3,item_show_time0_day3,null);
+        mTimeLineContentMap3.put(mTimeLine3.get(0), mProgramBeanTime0Day3);
 
         List<String> mContentAtTime1Day3 = new ArrayList<>();
+        String[] item_show_time1_day3=mContext.getResources().getStringArray(R.array.item_show_time1_day3);
+        String[] item_detail_time1_day3=mContext.getResources().getStringArray(R.array.item_detail_time1_day3);
         mContentAtTime1Day3.add("Keynote Speech #3");
         mContentAtTime1Day3.add("Keynote Speech #4");
-        mTimeLineContentMap3.put(mTimeLine3.get(1), mContentAtTime1Day3);
+        ProgramBean mProgramBeanTime1Day3=new ProgramBean(mContentAtTime1Day3,item_show_time1_day3,item_detail_time1_day3);
+        mTimeLineContentMap3.put(mTimeLine3.get(1), mProgramBeanTime1Day3);
 
         List<String> mContentAtTime2Day3 = new ArrayList<>();
+        String[] item_show_time2_day3=mContext.getResources().getStringArray(R.array.item_show_time2_day3);
         mContentAtTime2Day3.add("Coffee Break & Poster Session-2");
-        mTimeLineContentMap3.put(mTimeLine3.get(2), mContentAtTime2Day3);
+        ProgramBean mProgramBeanTime2Day3=new ProgramBean(mContentAtTime2Day3,item_show_time2_day3,null);
+        mTimeLineContentMap3.put(mTimeLine3.get(2), mProgramBeanTime2Day3);
 
         List<String> mContentAtTime3Day3 = new ArrayList<>();
+        String[] item_show_time3_day3=mContext.getResources().getStringArray(R.array.item_show_time3_day3);
+        String[] item_detail_time3_day3=mContext.getResources().getStringArray(R.array.item_detail_time3_day3);
         mContentAtTime3Day3.add("WNM-1");
         mContentAtTime3Day3.add("SPC-4");
         mContentAtTime3Day3.add("Invited-5");
         mContentAtTime3Day3.add("SNBD-1");
         mContentAtTime3Day3.add("PSC-1");
-        mTimeLineContentMap3.put(mTimeLine3.get(3), mContentAtTime3Day3);
+        ProgramBean mProgramBeanTime3Day3=new ProgramBean(mContentAtTime3Day3,item_show_time3_day3,item_detail_time3_day3);
+        mTimeLineContentMap3.put(mTimeLine3.get(3), mProgramBeanTime3Day3);
 
 
         List<String> mContentAtTime4Day3 = new ArrayList<>();
+        String[] item_show_time4_day3=mContext.getResources().getStringArray(R.array.item_show_time4_day3);
         mContentAtTime4Day3.add("Lunch");
-        mTimeLineContentMap3.put(mTimeLine3.get(4), mContentAtTime4Day3);
+        ProgramBean mProgramBeanTime4Day3=new ProgramBean(mContentAtTime4Day3,item_show_time4_day3,null);
+        mTimeLineContentMap3.put(mTimeLine3.get(4), mProgramBeanTime4Day3);
 
         List<String> mContentAtTime5Day3 = new ArrayList<>();
+        String[] item_show_time5_day3=mContext.getResources().getStringArray(R.array.item_show_time5_day3);
+        String[] item_detail_time5_day3=mContext.getResources().getStringArray(R.array.item_detail_time5_day3);
         mContentAtTime5Day3.add("WNM-2");
         mContentAtTime5Day3.add("WCS-5");
         mContentAtTime5Day3.add("STC-1");
         mContentAtTime5Day3.add("OCSN-1");
         mContentAtTime5Day3.add("PSC-2");
-        mTimeLineContentMap3.put(mTimeLine3.get(5), mContentAtTime5Day3);
+        ProgramBean mProgramBeanTime5Day3=new ProgramBean(mContentAtTime5Day3,item_show_time5_day3,item_detail_time5_day3);
+        mTimeLineContentMap3.put(mTimeLine3.get(5), mProgramBeanTime5Day3);
 
 
         List<String> mContentAtTime6Day3 = new ArrayList<>();
+        String[] item_show_time6_day3=mContext.getResources().getStringArray(R.array.item_show_time6_day3);
         mContentAtTime6Day3.add("Coffee Break");
-        mTimeLineContentMap3.put(mTimeLine3.get(6), mContentAtTime6Day3);
+        ProgramBean mProgramBeanTime6Day3=new ProgramBean(mContentAtTime6Day3,item_show_time6_day3,null);
+        mTimeLineContentMap3.put(mTimeLine3.get(6), mProgramBeanTime6Day3);
 
         List<String> mContentAtTime7Day3 = new ArrayList<>();
+        String[] item_show_time7_day3=mContext.getResources().getStringArray(R.array.item_show_time7_day3);
+        String[] item_detail_time7_day3=mContext.getResources().getStringArray(R.array.item_detail_time7_day3);
         mContentAtTime7Day3.add("WCS-6");
         mContentAtTime7Day3.add("WCS-7");
         mContentAtTime7Day3.add("STC-2");
         mContentAtTime7Day3.add("OCSN-2");
-        mTimeLineContentMap3.put(mTimeLine3.get(7), mContentAtTime7Day3);
+        ProgramBean mProgramBeanTime7Day3=new ProgramBean(mContentAtTime7Day3,item_show_time7_day3,item_detail_time7_day3);
+        mTimeLineContentMap3.put(mTimeLine3.get(7), mProgramBeanTime7Day3);
 
 
         mList = new ArrayList<>();
@@ -373,6 +436,8 @@ public class MyViewPagerAdapter extends PagerAdapter {
             return "reception";
         else if (mSessionItemText.contains("Banquet"))
             return "banquet";
+        else if (mSessionItemText.contains("Lunch"))
+            return "lunch";
         else
             return null;
     }

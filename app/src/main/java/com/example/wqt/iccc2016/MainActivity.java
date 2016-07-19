@@ -7,7 +7,8 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
 
-import com.example.wqt.iccc2016.qpf.CommitteeActivity;
+import com.example.wqt.iccc2016.qpf.CommitteeMainActivity;
+import com.example.wqt.iccc2016.qpf.MapsActivity;
 import com.example.wqt.iccc2016.qpf.VersionActivity;
 import com.example.wqt.iccc2016.qpf.WelcomeActivity;
 import com.example.wqt.iccc2016.wqt.HotelAndTravelActivity;
@@ -23,7 +24,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     int[] mGridViewImageIds = new int[]{R.string.icon_font_welcome, R.string.icon_font_program, R.string.icon_font_map, R.string.icon_font_patrons, R.string.icon_font_commitee, R.string.icon_font_hotel_and_travel, R.string.icon_font_message, R.string.icon_font_version_update};
 
-    String[] mGridViewTextStrings = new String[]{"Welcome", "Program", "Map", "Patrons", "Commitee", "Hotel/Travel", "Messages", "Version Update"};
+    String[] mGridViewTextStrings = new String[]{"Welcome", "Program", "Map", "About", "Committee", "Hotel/Travel", "Messages", "Version Update"};
 
     //ProgressBar mProgressBar;
 
@@ -142,13 +143,15 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 startActivity(intentForProgram);
                 break;
             case 2:
+                Intent intentForMaps=new Intent(this, MapsActivity.class);
+                startActivity(intentForMaps);
                 break;
             case 3:
                 Intent intentForPatron = new Intent(this, PatronActivity.class);
                 startActivity(intentForPatron);
                 break;
             case 4:
-                Intent intentForCommittee = new Intent(this, CommitteeActivity.class);
+                Intent intentForCommittee = new Intent(this, CommitteeMainActivity.class);
                 startActivity(intentForCommittee);
                 break;
             case 5:

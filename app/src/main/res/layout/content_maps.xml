@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.wqt.iccc2016.qpf.MapsActivity"
+    tools:showIn="@layout/activity_maps">
+
+    <ImageView
+        android:id="@+id/maps_head_image"
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:src="@drawable/welcome_head_image" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tv_map_of_hotel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="@string/map_of_hotel"
+                android:textColor="#0070c0"
+                android:textSize="26dp" />
+
+            <ImageView
+                android:id="@+id/iv_map_of_hotel"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/hotel_map"/>
+
+            <TextView
+                android:id="@+id/tv_hotel_around"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="@string/hotel_around"
+                android:textColor="#0070c0"
+                android:textSize="26dp" />
+
+            <ImageView
+                android:id="@+id/iv_hotel_around"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/hotel_around"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
