@@ -38,6 +38,8 @@
         Finally, we wish all the participants a very fruitful and productive conference, and also an unforgettable stay in Chengdu.</string>
     <string name="welcome_end">Program Committee, IEEE/CIC ICCC 2016</string>
     <string name="update_info">Already up-to-date</string>
+    <string name="map_of_hotel">Map of Wangjiang Hotel</string>
+    <string name="hotel_around">Hotels around the Conference Venue</string>
 
     <string name="huawei_introduction">Huawei is a leading global information and communications technology (ICT) solutions provider. Driven by responsible operations, ongoing innovation, and open collaboration, we have established a competitive ICT portfolio of end-to-end solutions in telecom and enterprise networks, devices, and cloud computing. Our ICT solutions, products, and services are used in more than 170 countries and regions, serving over one-third of the world\'s population. With more than 170,000 employees, Huawei is committed to enabling the future information society, and building a Better Connected World.</string>
     <string name="title_activity_detail">Detail</string>

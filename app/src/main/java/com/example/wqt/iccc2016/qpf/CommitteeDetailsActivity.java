@@ -331,11 +331,11 @@ public class CommitteeDetailsActivity extends AppCompatActivity {
         }
     }
 
-    @Override
+    /*@Override
     protected void onTitleChanged(CharSequence title, int color) {
         super.onTitleChanged(title, color);
         if (mToolbarTitle != null) {
             mToolbarTitle.setText(title);
         }
-    }
+    }*/
 }

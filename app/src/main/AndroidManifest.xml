@@ -109,6 +109,10 @@
         <activity
             android:name=".qpf.PSCActivity"
             android:label="@string/title_activity_psc"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".qpf.MapsActivity"
+            android:label="@string/title_activity_maps"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
