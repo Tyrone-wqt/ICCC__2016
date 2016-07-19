@@ -21,12 +21,12 @@ import java.util.Map;
  */
 public class ProgramAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
-    public static int viewTypeTimeLine = 1;
-    public static int viewTypeSession = 2;
+    final int viewTypeTimeLine = 1;
+    final int viewTypeSession = 2;
     private OnItemClickListener mOnItemClickListener;
     Context mContext;
     List<String> mTimeLineList;
-    Map<String, List<String>> mProgramSessionMap;
+    Map<String, ProgramBean> mProgramSessionMap;
     Map<Integer, Integer> mPositionMap;
     //timeline在position中的位置
     List<Integer> mTimeLineIndexList;
@@ -34,7 +34,7 @@ public class ProgramAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
     LayoutInflater mLayoutInflater;
     int mSessionNum;
 
-    public ProgramAdapter(Context mContext, List<String> mTimeLineList, Map<String, List<String>> mProgramSessionMap) {
+    public ProgramAdapter(Context mContext, List<String> mTimeLineList, Map<String, ProgramBean> mProgramSessionMap) {
         this.mContext = mContext;
         mLayoutInflater = LayoutInflater.from(this.mContext);
         this.mProgramSessionMap = mProgramSessionMap;
@@ -50,7 +50,7 @@ public class ProgramAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
             mPositionMap.put(mSessionNum, i);
             mTimeListText = this.mTimeLineList.get(i);
             Log.i("TimeLine", i + ":" + mTimeListText);
-            mSessionList = this.mProgramSessionMap.get(mTimeListText);
+            mSessionList = this.mProgramSessionMap.get(mTimeListText).mContentAtTimeiDayj;
             mSessionNum = mSessionNum + mSessionList.size() + 1;
         }
         Log.i("totalNum", "==" + mSessionNum);
@@ -78,6 +78,7 @@ public class ProgramAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
         } else if (viewType == viewTypeSession) {
             viewHolder = new ProgramSessionItemHolder(mLayoutInflater.inflate(R.layout.item_program_recycler_session, null));
         }
+        viewHolder.setIsRecyclable(false);
         return viewHolder;
     }
 
@@ -102,22 +103,26 @@ public class ProgramAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
                 index=i-1;
                 rest=position-mTimeLineIndexList.get(index);
             }
-            final String mSessionItemText = mProgramSessionMap.get(mTimeLineList.get(index)).get(rest - 1);
-            ((ProgramSessionItemHolder) holder).mTextSessionItem.setText(mSessionItemText);
+            final String mSessionItemText=mProgramSessionMap.get(mTimeLineList.get(index)).mContentAtTimeiDayj.get(rest-1);
+            String textCatagory=mProgramSessionMap.get(mTimeLineList.get(index)).mItemShowAtTimeiDayj[rest-1];
+            ((ProgramSessionItemHolder) holder).mTextSessionItem.setText(textCatagory);
+            String[] textDetails=mProgramSessionMap.get(mTimeLineList.get(index)).mItemDetailAtTimeiDayj;
+
+            if(textDetails!=null){
+                String textDetail=textDetails[rest-1];
+                ((ProgramSessionItemHolder) holder).mTextSessionDetail.setText(textDetail);
+            }else{
+                ((ProgramSessionItemHolder) holder).mTextSessionDetail.setVisibility(View.GONE);
+            }
+            //((ProgramSessionItemHolder) holder).mTextSessionAuthor.setVisibility(View.GONE);
             if (mOnItemClickListener != null) {
                 holder.itemView.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        //int pos = holder.getLayoutPosition();
-                        //mOnItemClickListener.onItemClick(holder.itemView, position);
                         mOnItemClickListener.onItemClick(mSessionItemText);
-
                     }
                 });
             }
-            //if(mSessionItemText.equals("Coffee Break")||mSessionItemText.equals("Conference Registration")){
-            //    ((ProgramSessionItemHolder) holder).mImageView.setVisibility(View.INVISIBLE);
-            //}
         }
     }
 
@@ -203,7 +208,7 @@ public class ProgramAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
         return mSessionNum;
     }
 
-    public class ProgramTimeLineHolder extends RecyclerView.ViewHolder {
+    public static class ProgramTimeLineHolder extends RecyclerView.ViewHolder {
         public TextView mTextTimeLine;
 
         public ProgramTimeLineHolder(View itemView) {
@@ -212,14 +217,17 @@ public class ProgramAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
         }
     }
 
-    public class ProgramSessionItemHolder extends RecyclerView.ViewHolder {
+    public static class ProgramSessionItemHolder extends RecyclerView.ViewHolder {
         public TextView mTextSessionItem;
+        //public TextView mTextSessionAuthor;
+        public TextView mTextSessionDetail;
         public ImageView mImageView;
         public ProgramSessionItemHolder(View itemView) {
             super(itemView);
-            mTextSessionItem = (TextView) itemView.findViewById(R.id.program_text_session);
+            mTextSessionItem = (TextView) itemView.findViewById(R.id.item_session_catagory);
+            //mTextSessionAuthor= (TextView) itemView.findViewById(R.id.item_session_author);
+            mTextSessionDetail= (TextView) itemView.findViewById(R.id.item_session_detail);
             mImageView= (ImageView) itemView.findViewById(R.id.program_image_extend);
         }
     }
-
 }

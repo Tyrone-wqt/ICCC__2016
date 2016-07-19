@@ -43,5 +43,265 @@
     <string name="huawei_introduction">Huawei is a leading global information and communications technology (ICT) solutions provider. Driven by responsible operations, ongoing innovation, and open collaboration, we have established a competitive ICT portfolio of end-to-end solutions in telecom and enterprise networks, devices, and cloud computing. Our ICT solutions, products, and services are used in more than 170 countries and regions, serving over one-third of the world\'s population. With more than 170,000 employees, Huawei is committed to enabling the future information society, and building a Better Connected World.</string>
     <string name="title_activity_detail">Detail</string>
 
+    <string-array name="item_show_time0_day1">
+        <item>Conference Registration</item>
+    </string-array>
+    
+
+    <string-array name="item_show_time1_day1">
+        <item>Workshops</item>
+        <item>Workshops</item>
+        <item>Workshops</item>
+        <item>Tutorials</item>
+        <item>Tutorials</item>
+        <item>Tutorials</item>
+    </string-array>
+    
+    <string-array name="item_detail_time1_day1">
+        <item>Emerging MIMO Technology in Large-Scale Active Antenna System</item>
+        <item>Wireless Communications for Internet of Things Networking</item>
+        <item>The First International Workshop on Space Information Networking</item>
+        <item>Molecular Communication: From Theory to Standard</item>
+        <item>Recent Advances in Wireless Localization</item>
+        <item>Full-Duplex Communications and Networks</item>
+    </string-array>
+
+    <string-array name="item_show_time2_day1">
+        <item>Coffee Break</item>
+    </string-array>
+
+    <string-array name="item_show_time3_day1">
+        <item>Workshops</item>
+        <item>Workshops</item>
+        <item>Workshops</item>
+        <item>Tutorials</item>
+        <item>Tutorials</item>
+        <item>Tutorials</item>
+    </string-array>
+
+    <string-array name="item_detail_time3_day1">
+        <item>Emerging MIMO Technology in Large-Scale Active Antenna System</item>
+        <item>Wireless Communications for Internet of Things Networking</item>
+        <item>Space Information Networking</item>
+        <item>Molecular Communication: From Theory to Standard</item>
+        <item>Recent Advances in Wireless Localization</item>
+        <item>Full-Duplex Communications and Networks</item>
+    </string-array>
+
+    <string-array name="item_show_time4_day1">
+        <item>Lunch</item>
+    </string-array>
+
+    <string-array name="item_show_time5_day1">
+        <item>Tutorials</item>
+        <item>Tutorials</item>
+        <item>Tutorials</item>
+        <item>Tutorials</item>
+        <item>Tutorials</item>
+        <item>Tutorials</item>
+    </string-array>
+
+    <string-array name="item_detail_time5_day1">
+        <item>Vehicular Communications and Networking: The Gateway to Connected Mobility</item>
+        <item>Low-Cost Massive MIMO：From Theory to Practice</item>
+        <item>Networks and Devices Revolution for 5G: Fundamentals and Recent Advances</item>
+        <item>Channel Characterization and Modeling of 5G Wireless Communication Systems</item>
+        <item>New Type Non-orthogonal Multiple Access for 5G Networks</item>
+        <item>NOMA: A Promising Multiple Access Technique for 5G and Beyond</item>
+    </string-array>
+
+    <string-array name="item_show_time6_day1">
+        <item>Coffee Break</item>
+    </string-array>
+
+    <string-array name="item_show_time7_day1">
+        <item>Tutorials</item>
+        <item>Tutorials</item>
+        <item>Tutorials</item>
+        <item>Tutorials</item>
+        <item>Tutorials</item>
+        <item>Tutorials</item>
+    </string-array>
+
+    <string-array name="item_detail_time7_day1">
+        <item>Vehicular Communications and Networking: The Gateway to Connected Mobility</item>
+        <item>Low-Cost Massive MIMO：From Theory to Practice</item>
+        <item>Networks and Devices Revolution for 5G: Fundamentals and Recent Advances</item>
+        <item>Channel Characterization and Modeling of 5G Wireless Communication Systems</item>
+        <item>New Type Non-orthogonal Multiple Access for 5G Networks</item>
+        <item>NOMA: A Promising Multiple Access Technique for 5G and Beyond</item>
+    </string-array>
+
+    <string-array name="item_show_time8_day1">
+        <item>Welcome Reception</item>
+    </string-array>
+
+    <string-array name="item_show_time0_day2">
+        <item>Conference Registration</item>
+    </string-array>
+
+    <string-array name="item_show_time1_day2">
+        <item>Welcome Opening</item>
+    </string-array>
+
+    <string-array name="item_show_time2_day2">
+        <item>Keynote Speech</item>
+        <item>Keynote Speech</item>
+    </string-array>
+
+    <string-array name="item_detail_time2_day2">
+        <item>The Architecture and Critical Technologies of Space Information Networks (Dr. Quan Yu)</item>
+        <item>LTE on Unlicensed Band (Prof. Geoffrey Ye Li)</item>
+    </string-array>
+
+    <string-array name="item_show_time3_day2">
+        <item>Coffee Break &amp; Poster Session-1</item>
+    </string-array>
+
+    <string-array name="item_show_time4_day2">
+        <item>TECHNICAL Sessions</item>
+        <item>TECHNICAL Sessions</item>
+        <item>TECHNICAL Sessions</item>
+        <item>Invited Talks</item>
+        <item>Invited Talks</item>
+    </string-array>
+
+    <string-array name="item_detail_time4_day2">
+        <item>Cooperative Networks and Relaying Communications</item>
+        <item>Smart Controlling and Processing in Communications</item>
+        <item>Signal Processing for Massive MIMO</item>
+        <item>Channel Characterization and Modeling of 5G Wireless Communication Systems</item>
+        <item>New Type Non-orthogonal Multiple Access for 5G Networks</item>
+
+    </string-array>
+
+    <string-array name="item_show_time5_day2">
+        <item>Lunch</item>
+    </string-array>
+
+    <string-array name="item_show_time6_day2">
+        <item>TECHNICAL Sessions</item>
+        <item>TECHNICAL Sessions</item>
+        <item>TECHNICAL Sessions</item>
+        <item>TECHNICAL Sessions</item>
+        <item>Invited Talks</item>
+        <item>Invited Talks</item>
+        <item>Steering Committee Meeting</item>
+    </string-array>
+
+    <string-array name="item_detail_time6_day2">
+        <item>Device to Device Communications</item>
+        <item>Networks and Computing Theory</item>
+        <item>Signal Processing for Cognitive and Cooperative Communications</item>
+        <item>Small Cell and QoE</item>
+        <item>Localization of Internet of Things Network  &amp;  Energy Efficient Design  &amp;  Wireless sensor network for structural health monitoring</item>
+        <item>Complexity Metrics  &amp;  Evolution of Half Duplex  &amp;  Topology Control</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="item_show_time7_day2">
+        <item>Coffee Break</item>
+    </string-array>
+
+
+    <string-array name="item_show_time8_day2">
+        <item>TECHNICAL Sessions</item>
+        <item>TECHNICAL Sessions</item>
+        <item>TECHNICAL Sessions</item>
+        <item>TECHNICAL Sessions</item>
+        <item>TECHNICAL Sessions</item>
+        <item>Industrial &amp; Academic Panels (IAP)</item>
+        <item>Steering Committee Meeting</item>
+    </string-array>
+
+    <string-array name="item_detail_time8_day2">
+        <item>Energy Harvesting and Energy Efficiency</item>
+        <item>Physical Layer Security and Full Duplex</item>
+        <item>Multimedia Processing and Detection</item>
+        <item>Interconnected Vehicles and Energy Scheduling</item>
+        <item>5G and Data Center Networks	</item>
+        <item>High Frequency - The Road to Reaching Giga-and Tera-bits Era</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="item_show_time9_day2">
+        <item>Banquet</item>
+    </string-array>
+
+    <string-array name="item_show_time0_day3">
+        <item>Conference</item>
+    </string-array>
+
+    <string-array name="item_show_time1_day3">
+        <item>Keynote Speech</item>
+        <item>Keynote Speech</item>
+    </string-array>
+
+    <string-array name="item_detail_time1_day3">
+        <item>5G is Coming  (Peiying Zhu)</item>
+        <item>Multiple Access and Power Efficiency in Wireless Communications (Prof. Hikmet SARI)</item>
+    </string-array>
+
+    <string-array name="item_show_time2_day3">
+        <item>Coffee Break &amp; Poster Session-1</item>
+    </string-array>
+
+    <string-array name="item_show_time3_day3">
+        <item>TECHNICAL Sessions</item>
+        <item>TECHNICAL Sessions</item>
+        <item>Invited Talks</item>
+        <item>TECHNICAL Sessions</item>
+        <item>TECHNICAL Sessions</item>
+    </string-array>
+
+    <string-array name="item_detail_time3_day3">
+        <item>Networking and multimedia applications</item>
+        <item>Multiantenna and MIMO in Wireless Networks</item>
+        <item>Cost Efficiency for Economical Mobile Data Traffic Management  &amp;  Load Balancing  &amp;  Transmitting Correlated Sources</item>
+        <item>Social Networks and Big Data</item>
+        <item>Privacy and Security</item>
+
+    </string-array>
+
+    <string-array name="item_show_time4_day3">
+        <item>Lunch</item>
+    </string-array>
+
+
+    <string-array name="item_show_time5_day3">
+        <item>TECHNICAL Sessions</item>
+        <item>TECHNICAL Sessions</item>
+        <item>TECHNICAL Sessions</item>
+        <item>TECHNICAL Sessions</item>
+        <item>TECHNICAL Sessions</item>
+    </string-array>
+
+    <string-array name="item_detail_time5_day3">
+        <item>Transmission</item>
+        <item>MIMO</item>
+        <item>Wireless Communications</item>
+        <item>Optical Wireless Communications</item>
+        <item>Privacy and Security</item>
+
+    </string-array>
+
+    <string-array name="item_show_time6_day3">
+        <item>Coffee Break</item>
+    </string-array>
+
+    <string-array name="item_show_time7_day3">
+        <item>TECHNICAL Sessions</item>
+        <item>TECHNICAL Sessions</item>
+        <item>TECHNICAL Sessions</item>
+        <item>TECHNICAL Sessions</item>
+
+    </string-array>
+
+    <string-array name="item_detail_time7_day3">
+        <item>Small Cells and Heterogeneous Networks</item>
+        <item>Multiple Access</item>
+        <item>Emerging Trend in Communications</item>
+        <item>Optical Communications</item>
+    </string-array>
 
 </resources>
