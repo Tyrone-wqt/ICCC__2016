@@ -405,4 +405,6 @@
     <string name="map_of_hotel">Map of Wangjiang Hotel</string>
     <string name="hotel_around">Hotels around the Conference Venue</string>
     <string name="technical_program_chairs_end">Technical Program Chairs, IEEE/CIC ICCC 2016</string>
+    <string name="title_activity_message">Message</string>
+    <string name="title_activity_message_detail">MessageDetail</string>
 </resources>
