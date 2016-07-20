@@ -7,11 +7,15 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
 
+import com.baidu.android.pushservice.PushConstants;
+import com.baidu.android.pushservice.PushManager;
+import com.baidu.android.pushservice.PushSettings;
 import com.example.wqt.iccc2016.qpf.CommitteeMainActivity;
 import com.example.wqt.iccc2016.qpf.MapsActivity;
 import com.example.wqt.iccc2016.qpf.VersionActivity;
 import com.example.wqt.iccc2016.qpf.WelcomeActivity;
 import com.example.wqt.iccc2016.wqt.HotelAndTravelActivity;
+import com.example.wqt.iccc2016.wqt.Message.MessageActivity;
 import com.example.wqt.iccc2016.wqt.MyGridViewAdapter;
 import com.example.wqt.iccc2016.wqt.PatronActivity;
 import com.example.wqt.iccc2016.wqt.ProgramActivity;
@@ -20,6 +24,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     //private static final String filePath = "data/data/com.example.wqt.iccc2016/databases/data.db";
     //private static final String pathStr = "data/data/com.example.wqt.iccc2016/databases";
     //private final int BUFFER_SIZE = 4096;
+    public static String API_KEY = "GSTBsk1kbHWzCbfEdudxn03E";
     GridView mGridView;
 
     int[] mGridViewImageIds = new int[]{R.string.icon_font_welcome, R.string.icon_font_program, R.string.icon_font_map, R.string.icon_font_patrons, R.string.icon_font_commitee, R.string.icon_font_hotel_and_travel, R.string.icon_font_message, R.string.icon_font_version_update};
@@ -50,25 +55,27 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         //mHandler = new Handler() {
         //    @Override
         //    public void handleMessage(Message msg) {
-                //super.handleMessage(msg);
+        //super.handleMessage(msg);
         //        if (msg.what == 0x01) {
-         //           mProgressBar.setVisibility(View.INVISIBLE);
+        //           mProgressBar.setVisibility(View.INVISIBLE);
         //            mGridView.setVisibility(View.VISIBLE);
         //            mSharedPreference.edit().putBoolean("firstSetting",true).commit();
         //            System.out.println("success");
-          //      }else if(msg.what==0x02){
-          //          mProgressBar.setVisibility(View.INVISIBLE);
-         //           mGridView.setVisibility(View.VISIBLE);
-         //           Toast.makeText(MainActivity.this,"Database replication failed",Toast.LENGTH_LONG);
-         //           System.out.println("fail");
+        //      }else if(msg.what==0x02){
+        //          mProgressBar.setVisibility(View.INVISIBLE);
+        //           mGridView.setVisibility(View.VISIBLE);
+        //           Toast.makeText(MainActivity.this,"Database replication failed",Toast.LENGTH_LONG);
+        //           System.out.println("fail");
         //        }
-         //   }
+        //   }
         //};
         //DBManager mDBManager = new DBManager();
         //mDBManager.openDatabase(this);
         //mDBManager.closeDatabase();
         //mProgressBar.setVisibility(View.INVISIBLE);
         //mGridView.setVisibility(View.VISIBLE);
+        PushSettings.enableDebugMode(this, true);
+        PushManager.startWork(getApplicationContext(), PushConstants.LOGIN_TYPE_API_KEY, API_KEY);
     }
     /*
     private void copyDb() {
@@ -143,7 +150,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 startActivity(intentForProgram);
                 break;
             case 2:
-                Intent intentForMaps=new Intent(this, MapsActivity.class);
+                Intent intentForMaps = new Intent(this, MapsActivity.class);
                 startActivity(intentForMaps);
                 break;
             case 3:
@@ -159,6 +166,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 startActivity(intentForHotelAndTravel);
                 break;
             case 6:
+                Intent intentForMessage = new Intent(this, MessageActivity.class);
+                startActivity(intentForMessage);
                 break;
             case 7:
                 Intent intentForUpdate = new Intent(this, VersionActivity.class);
@@ -167,3 +176,5 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         }
     }
 }
+
+
