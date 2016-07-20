@@ -21,8 +21,8 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".wqt.PatronActivity"
-            android:label="@string/title_activity_patron"
             android:hardwareAccelerated="false"
+            android:label="@string/title_activity_patron"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".wqt.ProgramActivity"
@@ -46,7 +46,7 @@
         <activity
             android:name=".wqt.DetailActivity"
             android:label="@string/title_activity_detail"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".qpf.GeneralChairsActivity"
             android:label="@string/title_activity_general_chairs"
@@ -110,6 +110,10 @@
         <activity
             android:name=".qpf.MapsActivity"
             android:label="@string/title_activity_maps"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".qpf.SteeringCommitteeActivity"
+            android:label="@string/title_activity_steering_committee"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
