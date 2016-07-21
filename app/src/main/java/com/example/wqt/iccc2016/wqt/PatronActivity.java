@@ -4,9 +4,9 @@ import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.text.Html;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.wqt.iccc2016.R;
@@ -14,8 +14,7 @@ import com.example.wqt.iccc2016.R;
 public class PatronActivity extends AppCompatActivity {
 
     TextView mToolbarTitle;
-    TextView mTextHuaweiWeb;
-    String mHuaweiWebLink="<strong>Website</strong>: <a href=\"http://www.huawei.com/en\">www.huawei.com</a>";
+    ImageView mImagePatron;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,14 +22,11 @@ public class PatronActivity extends AppCompatActivity {
         setContentView(R.layout.activity_patron);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         mToolbarTitle = (TextView) findViewById(R.id.patron_toolbar_title);
+        mImagePatron= (ImageView) findViewById(R.id.about_img_patron);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
-        mTextHuaweiWeb= (TextView) findViewById(R.id.huawei_web);
-        mTextHuaweiWeb.setText(Html.fromHtml(mHuaweiWebLink,null,null));
-        //RecyclerView view=new RecyclerView(this);
-
-
+        mImagePatron.setImageResource(R.drawable.patrons);
     }
 
     @Override
