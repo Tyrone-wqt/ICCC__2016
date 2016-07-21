@@ -7,6 +7,9 @@
     <string-array name="committee_main_list">
         <item>ICCC Committees</item>
         <item>Technical Program Committees</item>
+        <item>Steering Committees</item>
+    </string-array>
+    <string-array name="technical_program_committee_list">
         <item>Selected Topics in Communications</item>
         <item>Signal Processing for Communications</item>
         <item>Optical Communication Systems and Network</item>

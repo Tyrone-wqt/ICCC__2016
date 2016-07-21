@@ -4,19 +4,273 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.wqt.iccc2016.qpf.CommitteeActivity"
-    tools:showIn="@layout/activity_committee"
-    android:orientation="vertical">
-    <ListView
-        android:id="@+id/lv_committee"
+    tools:showIn="@layout/activity_committee">
+
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginLeft="8dp"
-        android:background="#ffffff"
-        android:divider="@null"
-        android:dividerHeight="10dp"/>
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_committee_general"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:clickable="true"
+                android:gravity="left"
+                android:maxLines="1"
+                android:text="General Chair:"
+                android:textColor="#000000"
+                android:textSize="22sp" />
+
+            <ListView
+                android:id="@+id/lv_committee_general"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:scrollbars="none"
+                android:divider="@null"
+                android:dividerHeight="10dp">
+
+            </ListView>
+
+            <TextView
+                android:id="@+id/tv_committee_publicity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:gravity="left"
+                android:maxLines="1"
+                android:text="Publicity Chair :"
+                android:textColor="#000000"
+                android:textSize="22sp" />
+
+            <ListView
+                android:id="@+id/lv_committee_publicity"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:scrollbars="none"
+                android:divider="@null"
+                android:dividerHeight="10dp">
+
+            </ListView>
+
+            <TextView
+                android:id="@+id/tv_committee_publication"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:gravity="left"
+                android:maxLines="1"
+                android:text="Publication Chair:"
+                android:textColor="#000000"
+                android:textSize="22sp" />
+
+            <ListView
+                android:id="@+id/lv_committee_publication"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:scrollbars="none"
+                android:divider="@null"
+                android:dividerHeight="10dp" />
+
+            <TextView
+                android:id="@+id/tv_committee_financial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:gravity="left"
+                android:maxLines="1"
+                android:text="Financial Chair:"
+                android:textColor="#000000"
+                android:textSize="22sp" />
+
+            <ListView
+                android:id="@+id/lv_committee_financial"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:scrollbars="none"
+                android:background="#ffffff"
+                android:divider="@null"
+                android:dividerHeight="10dp" />
+
+            <TextView
+                android:id="@+id/tv_committee_local"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:gravity="left"
+                android:maxLines="1"
+                android:text="Local Arrangement Chair:"
+                android:textColor="#000000"
+                android:textSize="22sp" />
+
+            <ListView
+                android:id="@+id/lv_committee_local"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:scrollbars="none"
+                android:divider="@null"
+                android:dividerHeight="10dp">
+
+            </ListView>
+
+            <TextView
+                android:id="@+id/tv_committee_registration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:clickable="true"
+                android:gravity="left"
+                android:maxLines="1"
+                android:text="Registration Chair:"
+                android:textColor="#000000"
+                android:textSize="22sp" />
+
+            <ListView
+                android:id="@+id/lv_committee_registration"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:scrollbars="none"
+                android:divider="@null"
+                android:dividerHeight="10dp">
+
+            </ListView>
+
+            <TextView
+                android:id="@+id/tv_committee_workshop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:gravity="left"
+                android:maxLines="1"
+                android:text="Workshop Chair :"
+                android:textColor="#000000"
+                android:textSize="22sp" />
+
+            <ListView
+                android:id="@+id/lv_committee_workshop"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:scrollbars="none"
+                android:background="#ffffff"
+                android:divider="@null"
+                android:dividerHeight="10dp">
+
+            </ListView>
+
+            <TextView
+                android:id="@+id/tv_committee_tutorial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:gravity="left"
+                android:maxLines="1"
+                android:text="Tutorial Chair:"
+                android:textColor="#000000"
+                android:textSize="22sp" />
+
+            <ListView
+                android:id="@+id/lv_committee_tutorial"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:scrollbars="none"
+                android:divider="@null"
+                android:dividerHeight="10dp"/>
+
+            <TextView
+                android:id="@+id/tv_committee_ketnotes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:gravity="left"
+                android:maxLines="1"
+                android:text="Keynotes Invited Chair:"
+                android:textColor="#000000"
+                android:textSize="22sp" />
+
+            <ListView
+                android:id="@+id/lv_committee_keynotes"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:scrollbars="none"
+                android:divider="@null"
+                android:dividerHeight="10dp"/>
+
+            <TextView
+                android:id="@+id/tv_committee_invited"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:gravity="left"
+                android:maxLines="1"
+                android:text="Invited Track Chair:"
+                android:textColor="#000000"
+                android:textSize="22sp" />
+
+            <ListView
+                android:id="@+id/lv_committee_invited"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:scrollbars="none"
+                android:divider="@null"
+                android:dividerHeight="10dp">
+
+            </ListView>
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>

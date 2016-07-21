@@ -125,6 +125,10 @@
             android:name=".qpf.MapsActivity"
             android:label="@string/title_activity_maps"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".qpf.SteeringCommitteeActivity"
+            android:label="@string/title_activity_steering_committee"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
 
         <!-- push service start -->
         <!-- 用于接收系统消息以保证PushService正常运行 -->

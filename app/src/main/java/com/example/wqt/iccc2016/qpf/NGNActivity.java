@@ -40,11 +40,11 @@ public class NGNActivity extends AppCompatActivity {
     }
 
     private void initNGN() {
-        Committee shiwen_mao=new Committee(R.drawable.shiwen_mao,"Shiwen Mao","Symposium Chair");
+        Committee shiwen_mao=new Committee(R.drawable.shiwen_mao,"Shiwen Mao","Auburn University");
         mList.add(shiwen_mao);
-        Committee lei_shu=new Committee(R.drawable.lei_shu,"Lei Shu","Symposium Chair");
+        Committee lei_shu=new Committee(R.drawable.lei_shu,"Lei Shu","Guangdong University of Petrochemical Technology");
         mList.add(lei_shu);
-        Committee xiaohong_huang=new Committee(R.drawable.xiaohong_huang,"Xiaohong Huang","Symposium Chair");
+        Committee xiaohong_huang=new Committee(R.drawable.xiaohong_huang,"Xiaohong Huang","Beijing University of Posts and Telecommunications");
         mList.add(xiaohong_huang);
     }
 
