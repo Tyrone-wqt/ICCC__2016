@@ -8,14 +8,48 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.wqt.iccc2016.qpf.TechnicalProgramCommitteeActivity"
     tools:showIn="@layout/activity_technical_program_committee">
-    <ListView
-        android:id="@+id/lv_technical_program_committee"
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginLeft="8dp"
-        android:background="#ffffff"
-        android:divider="@null"
-        android:dividerHeight="10dp"/>
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_tpc_chair"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:gravity="left"
+            android:maxLines="1"
+            android:text="TPC Chairs:"
+            android:textColor="#000000"
+            android:textSize="22sp" />
+
+        <ListView
+            android:id="@+id/lv_technical_program_committee"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#ffffff"
+            android:divider="@null"
+            android:scrollbars="none"
+            android:dividerHeight="10dp" />
+
+        <ListView
+            android:id="@+id/lv_tpc_symposium"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#ffffff"
+            android:scrollbars="none" />
+    </LinearLayout>
+</ScrollView>
 </LinearLayout>

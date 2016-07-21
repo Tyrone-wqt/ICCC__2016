@@ -15,7 +15,7 @@
     <string name="icon_font_message">&#xe645;</string>
     <string name="icon_font_version_update">&#xe60f;</string>
     <string name="title_activity_patron">About</string>
-    <string name="icon_font_patron_huawei">&#xe789;</string>
+
     <string name="title_activity_welcome">Welcome</string>
     <string name="title_activity_committee">Committee</string>
     <string name="fragment_hotel_title4">Travel</string>
@@ -407,4 +407,6 @@
     <string name="technical_program_chairs_end">Technical Program Chairs, IEEE/CIC ICCC 2016</string>
     <string name="title_activity_message">Message</string>
     <string name="title_activity_message_detail">MessageDetail</string>
+
+        <string name="title_activity_steering_committee">Steering Committee</string>
 </resources>

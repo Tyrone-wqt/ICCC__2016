@@ -40,11 +40,11 @@ public class WNMActivity extends AppCompatActivity {
     }
 
     private void initWNM() {
-        Committee honggang_wang=new Committee(R.drawable.honggang_wang,"Honggang Wang","Symposium Chair");
+        Committee honggang_wang=new Committee(R.drawable.honggang_wang,"Honggang Wang","University of Massachusetts Dartmouth");
         mList.add(honggang_wang);
-        Committee qingchun_chen=new Committee(R.drawable.qingchun_chen,"Qingchun Chen","Symposium Chair");
+        Committee qingchun_chen=new Committee(R.drawable.qingchun_chen,"Qingchun Chen","Southwest Jiaotong University");
         mList.add(qingchun_chen);
-        Committee yunjian_jia=new Committee(R.drawable.yunjian_jia,"Yunjian Jia","Symposium Chair");
+        Committee yunjian_jia=new Committee(R.drawable.yunjian_jia,"Yunjian Jia","Chongqing University");
         mList.add(yunjian_jia);
     }
 

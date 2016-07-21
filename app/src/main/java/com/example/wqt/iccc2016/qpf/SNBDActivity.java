@@ -43,11 +43,11 @@ public class SNBDActivity extends AppCompatActivity {
     }
 
     private void initSNBD() {
-        Committee song_guo=new Committee(R.drawable.song_guo,"Song Guo","Symposium Chair");
+        Committee song_guo=new Committee(R.drawable.song_guo,"Song Guo","University of Aizu ");
         mList.add(song_guo);
-        Committee min_chen=new Committee(R.drawable.min_chen,"Min Chen","Symposium Chair");
+        Committee min_chen=new Committee(R.drawable.min_chen,"Min Chen","Huazhong University of Science and Technology");
         mList.add(min_chen);
-        Committee pan_hui=new Committee(R.drawable.pan_hui,"Pan Hui","Symposium Chair");
+        Committee pan_hui=new Committee(R.drawable.pan_hui,"Pan Hui","Hong Kong University of Science and Technology");
         mList.add(pan_hui);
     }
     AdapterView.OnItemClickListener myOnItemClickListener = new AdapterView.OnItemClickListener() {

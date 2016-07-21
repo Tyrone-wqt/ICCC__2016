@@ -57,6 +57,10 @@ public class CommitteeMainActivity extends AppCompatActivity implements AdapterV
                 startActivity(intentTechnical);
                 break;
             case 2:
+                Intent intentSteering=new Intent(this,SteeringCommitteeActivity.class);
+                startActivity(intentSteering);
+                break;
+            /*case 2:
                 Intent intentSTC = new Intent(this, STCActivity.class);
                 startActivity(intentSTC);
                 break;
@@ -95,7 +99,7 @@ public class CommitteeMainActivity extends AppCompatActivity implements AdapterV
             case 11:
                 Intent intentMember = new Intent(this, MemberActivity.class);
                 startActivity(intentMember);
-                break;
+                break;*/
         }
     }
 
