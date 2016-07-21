@@ -40,11 +40,11 @@ public class CCTActivity extends AppCompatActivity {
     }
 
     private void initCCT() {
-        Committee jun_fang=new Committee(R.drawable.jun_fang,"Jun Fang","Symposium Chair");
+        Committee jun_fang=new Committee(R.drawable.jun_fang,"Jun Fang","UESTC");
         mList.add(jun_fang);
-        Committee carlo=new Committee(R.drawable.carlo,"Carlo Fischione","Symposium Chair");
+        Committee carlo=new Committee(R.drawable.carlo,"Carlo Fischione","The Royal Institute of Technology");
         mList.add(carlo);
-        Committee zhiguo_shi=new Committee(R.drawable.zhiguo_shi,"Zhiguo Shi","Symposium Chair");
+        Committee zhiguo_shi=new Committee(R.drawable.zhiguo_shi,"Zhiguo Shi","Zhejiang University");
         mList.add(zhiguo_shi);
 
     }

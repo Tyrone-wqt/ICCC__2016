@@ -47,11 +47,11 @@ public class PSCActivity extends AppCompatActivity {
     }
 
     private void initPSC() {
-        Committee xiaojiang_du=new Committee(R.drawable.xiaojiang_du,"Xiaojiang Du","Symposium Chair");
+        Committee xiaojiang_du=new Committee(R.drawable.xiaojiang_du,"Xiaojiang Du","Temple University");
         mList.add(xiaojiang_du);
-        Committee xiangyun_zhou=new Committee(R.drawable.xiangyun_zhou,"Xiangyun Zhou","Symposium Chair");
+        Committee xiangyun_zhou=new Committee(R.drawable.xiangyun_zhou,"Xiangyun Zhou","Australia National University");
         mList.add(xiangyun_zhou);
-        Committee hongwei_li=new Committee(R.drawable.hongwei_li,"Hongwei Li","Symposium Chair");
+        Committee hongwei_li=new Committee(R.drawable.hongwei_li,"Hongwei Li","UESTC");
         mList.add(hongwei_li);
     }
 

@@ -41,11 +41,11 @@ public class OCSNActivity extends AppCompatActivity {
     }
 
     private void initOCSN() {
-        Committee zhengyuan_xu=new Committee(R.drawable.zhengyuan_xu,"Zhengyuan Xu","Symposium Chair");
+        Committee zhengyuan_xu=new Committee(R.drawable.zhengyuan_xu,"Zhengyuan Xu","UESTC");
         mList.add(zhengyuan_xu);
-        Committee jaafar=new Committee(R.drawable.jaafar_elmirghani,"Jaafar Elmirghani","Symposium Chair");
+        Committee jaafar=new Committee(R.drawable.jaafar_elmirghani,"Jaafar Elmirghani","University of Leeds");
         mList.add(jaafar);
-        Committee chongfu_zhang=new Committee(R.drawable.chongfu_zhang,"Chongfu Zhang","Symposium Chair");
+        Committee chongfu_zhang=new Committee(R.drawable.chongfu_zhang,"Chongfu Zhang","UESTC");
         mList.add(chongfu_zhang);
     }
 

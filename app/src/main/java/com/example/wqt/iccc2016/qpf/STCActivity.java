@@ -44,13 +44,13 @@ public class STCActivity extends AppCompatActivity {
     }
 
     private void initSTC() {
-        Committee chau_yuen=new Committee(R.drawable.chau_yuen,"Chau Yuen","Symposium Chair");
+        Committee chau_yuen=new Committee(R.drawable.chau_yuen,"Chau Yuen","Singapore University of Technology and Design");
         mList.add(chau_yuen);
-        Committee chonggang_wang=new Committee(R.drawable.chonggang_wang,"Chonggang Wang","Symposium Chair");
+        Committee chonggang_wang=new Committee(R.drawable.chonggang_wang,"Chonggang Wang","InterDigital");
         mList.add(chonggang_wang);
-        Committee yifan_chen=new Committee(R.drawable.yifan_chen,"Yifan Chen","Symposium Chair");
+        Committee yifan_chen=new Committee(R.drawable.yifan_chen,"Yifan Chen","South University of Science and Technology of China");
         mList.add(yifan_chen);
-        Committee renping_liu=new Committee(R.drawable.renping_liu,"Renping Liu","Symposium Chair");
+        Committee renping_liu=new Committee(R.drawable.renping_liu,"Renping Liu","CSIRO, Australia");
         mList.add(renping_liu);
     }
 

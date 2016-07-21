@@ -41,11 +41,11 @@ public class SPCActivity extends AppCompatActivity {
     }
 
     private void initSPC() {
-        Committee xing_zhang=new Committee(R.drawable.xing_zhang,"Xing Zhang","Symposium Chair");
+        Committee xing_zhang=new Committee(R.drawable.xing_zhang,"Xing Zhang","Beijing University of Posts and Telecommunications");
         mList.add(xing_zhang);
-        Committee yue_gao=new Committee(R.drawable.yue_gao,"Yue Gao","Symposium Chair");
+        Committee yue_gao=new Committee(R.drawable.yue_gao,"Yue Gao","Queen Mary University of London");
         mList.add(yue_gao);
-        Committee tomohiko=new Committee(R.drawable.tomohiko_taniguchi,"Tomohiko Taniguchi","Symposium Chair");
+        Committee tomohiko=new Committee(R.drawable.tomohiko_taniguchi,"Tomohiko Taniguchi","Fujitsu Labs Ltd");
         mList.add(tomohiko);
     }
 

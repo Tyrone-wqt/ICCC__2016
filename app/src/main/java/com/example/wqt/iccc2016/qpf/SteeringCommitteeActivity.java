@@ -100,23 +100,23 @@ public class SteeringCommitteeActivity extends AppCompatActivity {
 
     private void initDatas()
     {
-        Committee xuemin_shen = new Committee(R.drawable.xuemin_shen, getResources().getString(R.string.committee_xuemin_shen), "Chair");
+        Committee xuemin_shen = new Committee(R.drawable.xuemin_shen, getResources().getString(R.string.committee_xuemin_shen), "University of Waterloo");
         mChairList.add(xuemin_shen);
-        Committee ke_gong = new Committee(R.drawable.ke_gong, getResources().getString(R.string.committee_ke_gong), "Vice Chair");
+        Committee ke_gong = new Committee(R.drawable.ke_gong, getResources().getString(R.string.committee_ke_gong), "Nankai University");
         mViceChairList.add(ke_gong);
-        Committee zhen_yang = new Committee(R.drawable.zhen_yang, getResources().getString(R.string.committee_zhen_yang), "Vice Chair");
+        Committee zhen_yang = new Committee(R.drawable.zhen_yang, getResources().getString(R.string.committee_zhen_yang), "Nanjing University of Posts and Telecommunications");
         mViceChairList.add(zhen_yang);
-        Committee khaled = new Committee(R.drawable.khaled, getResources().getString(R.string.committee_khaled), "Member");
+        Committee khaled = new Committee(R.drawable.khaled, getResources().getString(R.string.committee_khaled), "Hong Kong University of Science and Technology");
         mMemberList.add(khaled);
-        Committee kwang = new Committee(R.drawable.kwang, getResources().getString(R.string.committee_kwang), "Member");
+        Committee kwang = new Committee(R.drawable.kwang, getResources().getString(R.string.committee_kwang), "National Taiwan University");
         mMemberList.add(kwang);
-        Committee steve = new Committee(R.drawable.steve, getResources().getString(R.string.committee_steve), "Member");
+        Committee steve = new Committee(R.drawable.steve, getResources().getString(R.string.committee_steve), "CTTC Consulting");
         mMemberList.add(steve);
-        Committee tong_song = new Committee(R.drawable.tong_song, getResources().getString(R.string.committee_tong_song), "Member");
+        Committee tong_song = new Committee(R.drawable.tong_song, getResources().getString(R.string.committee_tong_song), "CIC");
         mMemberList.add(tong_song);
-        Committee yinghai_zhang = new Committee(R.drawable.yinghai_zhang, getResources().getString(R.string.committee_yinghai_zhang), "Member");
+        Committee yinghai_zhang = new Committee(R.drawable.yinghai_zhang, getResources().getString(R.string.committee_yinghai_zhang), "Beijing University of Posts and Telecommunications");
         mMemberList.add(yinghai_zhang);
-        Committee zhisheng_niu = new Committee(R.drawable.zhisheng_niu, getResources().getString(R.string.committee_zhisheng_niu), "Member");
+        Committee zhisheng_niu = new Committee(R.drawable.zhisheng_niu, getResources().getString(R.string.committee_zhisheng_niu), "Tsinghua University");
         mMemberList.add(zhisheng_niu);
     }
 

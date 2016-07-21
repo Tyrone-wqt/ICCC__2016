@@ -41,11 +41,11 @@ public class WCSActivity extends AppCompatActivity {
     }
 
     private void initWCS() {
-        Committee zhu_han=new Committee(R.drawable.zhu_han,"Zhu Han","Symposium Chair");
+        Committee zhu_han=new Committee(R.drawable.zhu_han,"Zhu Han","University of Houston");
         mList.add(zhu_han);
-        Committee lingyang_song=new Committee(R.drawable.lingyang_song,"Lingyang Song","Symposium Chair");
+        Committee lingyang_song=new Committee(R.drawable.lingyang_song,"Lingyang Song","Peking University");
         mList.add(lingyang_song);
-        Committee xijun_wang=new Committee(R.drawable.xijun_wang,"Xijun Wang","Symposium Chair");
+        Committee xijun_wang=new Committee(R.drawable.xijun_wang,"Xijun Wang","Xidian University");
         mList.add(xijun_wang);
 
     }

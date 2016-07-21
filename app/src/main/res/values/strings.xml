@@ -305,14 +305,7 @@
     </string-array>
 
     <string name="about_content_text">Since its commencement in 2012, the  IEEE/CIC International Conference on Communications in China (ICCC) conference has grown steadily from a brand new conference with a strong vision, to a unique venue in bringing together global researchers and practitioners in areas of communications to the greater China region. In particular, IEEE/CIC ICCC 2016 aims at addressing a key theme on “Ubiquitous Communications &amp; Computing for Future Internet”, which broadly cover all disciplines of communications from fundamental research to emerging applications, while emphasizing shaping technologies in the modern IT era.</string>
-    <string name="title_activity_member">TPC Members</string>
-    <string name="title_activity_technical_program_committee">TPC
-    </string>
-    <string name="title_activity_committee_main">Committee</string>
-    <string name="title_activity_maps">Maps</string>
-    <string name="title_activity_map_of_hotel">Map Of Hotel</string>
-    <string name="title_activity_hotels_around">Hotels Around</string>
-    <string name="title_activity_committee_details">CommitteeDetailsActivity</string>
+
 
     <!--Committee Name-->
     <string name="committee_shaoqian_li">Shaoqian Li</string>
@@ -347,7 +340,9 @@
     <string name="committee_tong_song">Tong Song</string>
     <string name="committee_yinghai_zhang">Yinghai Zhang</string>
     <string name="committee_zhisheng_niu">Zhisheng Niu</string>
+    <!--Committee Name-->
 
+    <!--Activity Title-->
 
     <string name="title_activity_committee_detail">CommitteeDetailActivity</string>
     <string name="title_activity_stc">STC</string>
@@ -359,8 +354,19 @@
     <string name="title_activity_wcs">WCS</string>
     <string name="title_activity_wnm">WNM</string>
     <string name="title_activity_psc">PSC</string>
+    <string name="title_activity_member">TPC Members</string>
+    <string name="title_activity_technical_program_committee">TPC
+    </string>
+    <string name="title_activity_technical_program_chairs">Technical Program Chairs</string>
+    <string name="title_activity_committee_main">Committee</string>
+    <string name="title_activity_maps">Maps</string>
+    <string name="title_activity_map_of_hotel">Map Of Hotel</string>
+    <string name="title_activity_hotels_around">Hotels Around</string>
+    <string name="title_activity_committee_details">CommitteeDetailsActivity</string>
+    <string name="title_activity_general_chairs">General Chairs</string>
+    <string name="title_activity_steering_committee">Steering Committee</string>
+    <!--Activity Title-->
 
-    <string name="title_activity_general_chairs">GeneralChairsActivity</string>
 <string name="general_chairs_content">\tOn behalf of the Executive Committee and the hosting University of Electronic Science and Technology of China,
         it is our great pleasure to welcome you to the fifth IEEE/CIC International Conference on Communications in China (ICCC 2016) in the magnificent
         city of Chengdu, China, 27-29 July, 2016.\n\n
@@ -378,7 +384,7 @@
         We look forward to their stimulating and scholastic seminars.\n\n
         Finally, we wish all the participants a very fruitful and productive conference, and also an unforgettable stay in Chengdu.</string>
     <string name="general_chairs_end">General Chairs, IEEE/CIC ICCC 2016</string>
-    <string name="title_activity_technical_program_chairs">Technical Program Chairs</string>
+
     <string name="technical_program_chairs_content">On behalf of the Technical Program Committee, it is our great pleasure to welcome you to the
         fifth IEEE/CIC International Conference on Communications in China (ICCC 2016), in the magnificent city of Chengdu. Under the theme of
         “Ubiquitous Communications &amp; Computing for Future Internet”, IEEE/CIC ICCC 2016 brings together researchers to discuss the latest
@@ -405,5 +411,4 @@
     <string name="map_of_hotel">Map of Wangjiang Hotel</string>
     <string name="hotel_around">Hotels around the Conference Venue</string>
     <string name="technical_program_chairs_end">Technical Program Chairs, IEEE/CIC ICCC 2016</string>
-    <string name="title_activity_steering_committee">Steering Committee</string>
 </resources>

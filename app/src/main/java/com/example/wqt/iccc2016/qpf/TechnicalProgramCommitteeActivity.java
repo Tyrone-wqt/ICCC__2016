@@ -39,20 +39,20 @@ public class TechnicalProgramCommitteeActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayShowTitleEnabled(false);
         initTPCCommittee();
         mListView.setAdapter(new CommitteeAdapter(TechnicalProgramCommitteeActivity.this, R.layout.item_committee, mList));
-        mSympoListView.setAdapter(new ArrayAdapter<String>(TechnicalProgramCommitteeActivity.this,android.R.layout.simple_list_item_1,mSympoList));
+        mSympoListView.setAdapter(new ArrayAdapter<String>(TechnicalProgramCommitteeActivity.this,R.layout.item_text,mSympoList));
         mListView.setOnItemClickListener(myOnItemClickListener);
         mSympoListView.setOnItemClickListener(sympoClickListener);
     }
 
 
     private void initTPCCommittee() {
-        Committee supeng_leng=new Committee(R.drawable.supeng_leng,"Supeng Leng","TPC Chair");
+        Committee supeng_leng=new Committee(R.drawable.supeng_leng,"Supeng Leng","UESTC");
         mList.add(supeng_leng);
-        Committee yan_zhang=new Committee(R.drawable.yan_zhang,"Yan Zhang","TPC Chair");
+        Committee yan_zhang=new Committee(R.drawable.yan_zhang,"Yan Zhang","Simula Research Lab&University of Oslo");
         mList.add(yan_zhang);
-        Committee nei_kato=new Committee(R.drawable.nei_kato,"Nei Kato","TPC Chair");
+        Committee nei_kato=new Committee(R.drawable.nei_kato,"Nei Kato","Tohoku University");
         mList.add(nei_kato);
-        Committee guang_shi=new Committee(R.drawable.guang_shi,"Guang Shi","TPC Chair");
+        Committee guang_shi=new Committee(R.drawable.guang_shi,"Guang Shi","CIC");
         mList.add(guang_shi);
 
         mSympoList=getResources().getStringArray(R.array.technical_program_committee_list);
