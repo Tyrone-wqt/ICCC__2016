@@ -58,7 +58,7 @@
         <ListView
             android:id="@+id/lv_steering__vice_chair"
             android:layout_width="match_parent"
-            android:layout_height="140dp"
+            android:layout_height="160dp"
             android:layout_marginRight="8dp"
             android:layout_marginTop="8dp"
             android:scrollbars="none"
@@ -84,7 +84,7 @@
         <ListView
             android:id="@+id/lv_steering__member"
             android:layout_width="match_parent"
-            android:layout_height="440dp"
+            android:layout_height="460dp"
             android:layout_marginRight="8dp"
             android:layout_marginTop="8dp"
             android:layout_weight="1"

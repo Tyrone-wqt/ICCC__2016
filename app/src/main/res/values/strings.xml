@@ -150,7 +150,7 @@
     </string-array>
 
     <string-array name="item_detail_time2_day2">
-        <item>The Architecture and Critical Technologies of Space Information Networks (Dr. Quan Yu)</item>
+        <item>Multiple Access and Power Efficiency in Wireless Communications (Prof. Hikmet SARI)</item>
         <item>LTE on Unlicensed Band (Prof. Geoffrey Ye Li)</item>
     </string-array>
 
@@ -238,8 +238,8 @@
     </string-array>
 
     <string-array name="item_detail_time1_day3">
-        <item>5G is Coming  (Peiying Zhu)</item>
-        <item>Multiple Access and Power Efficiency in Wireless Communications (Prof. Hikmet SARI)</item>
+        <item>5G is Coming  (Dr.Peiying Zhu)</item>
+        <item>A Hyper Cellular Architecture for 5G (Dr. Zhisheng Niu)</item>
     </string-array>
 
     <string-array name="item_show_time2_day3">
